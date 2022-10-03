@@ -1,0 +1,10 @@
+# Dagster
+dagster
+dagit
+
+nats-py     # Stream
+minio       # S3 storage
+pandas
+numpy
+pytz
+SQLAlchemy
