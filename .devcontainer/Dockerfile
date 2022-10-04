@@ -17,6 +17,13 @@ ENV MINIO_ROOT_PASSWORD=password
 RUN sudo mkdir /mnt/data 
 RUN sudo chown -R vscode /mnt/data && sudo chmod u+rxw /mnt/data
 
+# SETUP NATS stream
+RUN curl -L https://github.com/nats-io/nats-server/releases/download/v2.9.2/nats-server-v2.9.2-linux-amd64.zip -o nats-server.zip
+RUN curl -L https://github.com/nats-io/natscli/releases/download/v0.0.34/nats-0.0.34-linux-amd64.zip -o nats.zip
+RUN unzip nats-server.zip -d nats-server
+RUN unzip nats.zip -d nats
+RUN sudo cp nats-server/nats-server-v2.9.2-linux-amd64/nats-server /usr/bin
+RUN sudo cp nats/nats-0.0.34-linux-amd64/nats /usr/bin
 
 # [Optional] If your requirements rarely change, uncomment this section to add them to the image.
 # COPY requirements.txt /tmp/pip-tmp/
@@ -25,7 +32,7 @@ RUN sudo chown -R vscode /mnt/data && sudo chmod u+rxw /mnt/data
 
 # [Optional] Uncomment this section to install additional OS packages.
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get -y install --no-install-recommends postgresql-client vim
+    && apt-get -y install --no-install-recommends postgresql-client vim 
 
 RUN pip install \
     dagster \

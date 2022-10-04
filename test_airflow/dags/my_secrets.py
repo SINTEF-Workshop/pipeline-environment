@@ -1,2 +1,2 @@
 ACCESS_KEY="admin"
-SECRET_KEY="minio"
+SECRET_KEY="password"

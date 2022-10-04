@@ -8,7 +8,8 @@ class MinioClient:
 
     def get_client(self):
         client = Minio(
-            "sandbox-toys-minio.sandbox.svc.cluster.local:9000",
+            # "sandbox-toys-minio.sandbox.svc.cluster.local:9000",
+            "localhost:9000",
             access_key=ACCESS_KEY,
             secret_key=SECRET_KEY,
             secure=False
