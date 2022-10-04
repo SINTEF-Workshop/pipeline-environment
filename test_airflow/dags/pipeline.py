@@ -55,6 +55,7 @@ def dump_to_s3():
         asyncio.run(get_messages(start_time, end_time))
 
         file_name = format(str(end_time))
+        
         file = f"{home}/data/{file_name}"
         s3_path = f"airflow/data/{file_name}"
 

@@ -521,3 +521,296 @@ File Path                                                                       
 /usr/local/python/3.10.7/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  3           0  0.20s           2022-10-03T09:47:27
 /usr/local/python/3.10.7/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  6           0  0.20s           2022-10-03T09:47:00
 ================================================================================
+[2022-10-04T12:25:23.037+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2022-10-04T12:25:23.037+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-10-04T12:25:23.037+0000] {manager.py:485} INFO - Checking for new files in /workspaces/pipeline-environment/test_airflow/dags every 300 seconds
+[2022-10-04T12:25:23.037+0000] {manager.py:724} INFO - Searching for files in /workspaces/pipeline-environment/test_airflow/dags
+[2022-10-04T12:25:23.039+0000] {manager.py:727} INFO - There are 1 files in /workspaces/pipeline-environment/test_airflow/dags
+[2022-10-04T12:25:23.318+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           0           1  0.12s           2022-10-04T12:25:23
+================================================================================
+[2022-10-04T12:25:53.812+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.41s           2022-10-04T12:25:53
+================================================================================
+[2022-10-04T12:26:24.425+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:26:24
+================================================================================
+[2022-10-04T12:26:27.013+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-10-04T12:26:36.873+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2022-10-04T12:26:36.873+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-10-04T12:26:36.874+0000] {manager.py:485} INFO - Checking for new files in /workspaces/pipeline-environment/test_airflow/dags every 300 seconds
+[2022-10-04T12:26:36.874+0000] {manager.py:724} INFO - Searching for files in /workspaces/pipeline-environment/test_airflow/dags
+[2022-10-04T12:26:36.876+0000] {manager.py:727} INFO - There are 1 files in /workspaces/pipeline-environment/test_airflow/dags
+[2022-10-04T12:26:37.135+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.21s           2022-10-04T12:26:37
+================================================================================
+[2022-10-04T12:27:07.533+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:27:07
+================================================================================
+[2022-10-04T12:27:38.168+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:27:38
+================================================================================
+[2022-10-04T12:27:55.870+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-10-04T12:28:58.167+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2022-10-04T12:28:58.167+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-10-04T12:28:58.167+0000] {manager.py:485} INFO - Checking for new files in /workspaces/pipeline-environment/test_airflow/dags every 300 seconds
+[2022-10-04T12:28:58.168+0000] {manager.py:724} INFO - Searching for files in /workspaces/pipeline-environment/test_airflow/dags
+[2022-10-04T12:28:58.170+0000] {manager.py:727} INFO - There are 1 files in /workspaces/pipeline-environment/test_airflow/dags
+[2022-10-04T12:28:58.419+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:28:58
+================================================================================
+[2022-10-04T12:29:29.558+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:29:29
+================================================================================
+[2022-10-04T12:29:41.126+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-10-04T12:39:52.096+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2022-10-04T12:39:52.096+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-10-04T12:39:52.096+0000] {manager.py:485} INFO - Checking for new files in /workspaces/pipeline-environment/test_airflow/dags every 300 seconds
+[2022-10-04T12:39:52.096+0000] {manager.py:724} INFO - Searching for files in /workspaces/pipeline-environment/test_airflow/dags
+[2022-10-04T12:39:52.098+0000] {manager.py:727} INFO - There are 1 files in /workspaces/pipeline-environment/test_airflow/dags
+[2022-10-04T12:39:52.344+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.21s           2022-10-04T12:39:52
+================================================================================
+[2022-10-04T12:40:22.775+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:40:22
+================================================================================
+[2022-10-04T12:40:39.627+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-10-04T12:40:47.536+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2022-10-04T12:40:47.537+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-10-04T12:40:47.537+0000] {manager.py:485} INFO - Checking for new files in /workspaces/pipeline-environment/test_airflow/dags every 300 seconds
+[2022-10-04T12:40:47.537+0000] {manager.py:724} INFO - Searching for files in /workspaces/pipeline-environment/test_airflow/dags
+[2022-10-04T12:40:47.538+0000] {manager.py:727} INFO - There are 1 files in /workspaces/pipeline-environment/test_airflow/dags
+[2022-10-04T12:40:47.781+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:40:47
+================================================================================
+[2022-10-04T12:41:18.362+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:41:18
+================================================================================
+[2022-10-04T12:41:48.976+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:41:48
+================================================================================
+[2022-10-04T12:42:19.722+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.21s           2022-10-04T12:42:19
+================================================================================
+[2022-10-04T12:42:50.202+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:42:50
+================================================================================
+[2022-10-04T12:43:20.656+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.21s           2022-10-04T12:43:12
+================================================================================
+[2022-10-04T12:43:51.139+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:43:43
+================================================================================
+[2022-10-04T12:44:21.252+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:44:13
+================================================================================
+[2022-10-04T12:44:51.347+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:44:44
+================================================================================
+[2022-10-04T12:45:21.438+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:45:14
+================================================================================
+[2022-10-04T12:45:47.546+0000] {manager.py:724} INFO - Searching for files in /workspaces/pipeline-environment/test_airflow/dags
+[2022-10-04T12:45:47.547+0000] {manager.py:727} INFO - There are 1 files in /workspaces/pipeline-environment/test_airflow/dags
+[2022-10-04T12:45:51.535+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:45:45
+================================================================================
+[2022-10-04T12:46:21.956+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:46:16
+================================================================================
+[2022-10-04T12:46:52.532+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:46:46
+================================================================================
+[2022-10-04T12:47:23.079+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:47:17
+================================================================================
+[2022-10-04T12:47:53.630+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:47:47
+================================================================================
+[2022-10-04T12:48:24.169+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:48:18
+================================================================================
+[2022-10-04T12:48:54.708+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:48:48
+================================================================================
+[2022-10-04T12:49:25.112+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.21s           2022-10-04T12:49:18
+================================================================================
+[2022-10-04T12:49:55.513+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:49:49
+================================================================================
+[2022-10-04T12:50:25.910+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T12:50:19
+================================================================================
+[2022-10-04T13:15:15.283+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2022-10-04T13:15:15.293+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-10-04T13:15:15.293+0000] {manager.py:485} INFO - Checking for new files in /workspaces/pipeline-environment/test_airflow/dags every 300 seconds
+[2022-10-04T13:15:15.294+0000] {manager.py:724} INFO - Searching for files in /workspaces/pipeline-environment/test_airflow/dags
+[2022-10-04T13:15:15.296+0000] {manager.py:727} INFO - There are 1 files in /workspaces/pipeline-environment/test_airflow/dags
+[2022-10-04T13:15:15.586+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T13:15:15
+================================================================================
+[2022-10-04T13:15:45.885+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.20s           2022-10-04T13:15:45
+================================================================================
+[2022-10-04T13:15:53.767+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
