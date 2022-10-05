@@ -1,9 +1,9 @@
-# Dagster
 dagster
 dagit
-
-nats-py     # Stream
-minio       # S3 storage
+dagster-postgres
+apache-airflow
+minio 
+nats-py 
 pandas
 numpy
 pytz

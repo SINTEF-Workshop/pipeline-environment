@@ -95,7 +95,7 @@ def dump_to_s3():
             await append_to_file(data, end_time)
          
             # # update the time
-            start_time = timestamp
+            start_time = timestamp + timedelta(hours=2)
          
             await msg.ack()
 

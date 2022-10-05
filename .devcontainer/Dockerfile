@@ -4,6 +4,7 @@ FROM mcr.microsoft.com/vscode/devcontainers/python:0-${VARIANT}
 
 ENV PYTHONUNBUFFERED 1
 ENV AIRFLOW_HOME=/workspaces/pipeline-environment/test_airflow
+ENV DAGSTER_HOME=/workspaces/pipeline-environment/test_dagster
 
 # [Choice] Node.js version: none, lts/*, 16, 14, 12, 10
 ARG NODE_VERSION="none"
@@ -30,14 +31,9 @@ RUN sudo cp nats/nats-0.0.34-linux-amd64/nats /usr/bin
 # RUN pip3 --disable-pip-version-check --no-cache-dir install -r /tmp/pip-tmp/requirements.txt \
 #    && rm -rf /tmp/pip-tmp
 
-# [Optional] Uncomment this section to install additional OS packages.
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends postgresql-client vim 
 
-RUN pip install \
-    dagster \
-    dagit \
-    minio \
-    nats-py \
-    pytx \
-    apache-airflow
+# Install dependencies
+COPY .devcontainer/requirements.txt .
+RUN pip install -r requirements.txt

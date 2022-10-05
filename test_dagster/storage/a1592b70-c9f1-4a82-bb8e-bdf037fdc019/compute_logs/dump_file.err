@@ -1,0 +1,20 @@
+[32m2022-10-05 16:30:25 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - a1592b70-c9f1-4a82-bb8e-bdf037fdc019 - 7533 - dump_file - LOGS_CAPTURED - Started capturing logs for step: dump_file.
+[32m2022-10-05 16:30:25 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - a1592b70-c9f1-4a82-bb8e-bdf037fdc019 - 7533 - dump_file - STEP_START - Started execution of step "dump_file".
+[32m2022-10-05 16:30:25 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - a1592b70-c9f1-4a82-bb8e-bdf037fdc019 - 7533 - dump_file - LOADED_INPUT - Loaded input "file_name" using input manager "io_manager", from output "result" of step "collect_data"
+[32m2022-10-05 16:30:25 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - a1592b70-c9f1-4a82-bb8e-bdf037fdc019 - 7533 - dump_file - STEP_INPUT - Got input "file_name" of type "Any". (Type check passed).
+[32m2022-10-05 16:30:25 +0000[0m - dagster - [34mERROR[0m - [31mdump_to_s3 - a1592b70-c9f1-4a82-bb8e-bdf037fdc019 - 7533 - dump_file - STEP_FAILURE - Execution of step "dump_file" failed.
+
+dagster._core.errors.DagsterExecutionStepExecutionError: Error occurred while executing op "dump_file"::
+
+TypeError: MinioClient.add_file() missing 1 required positional argument: 'path'
+
+Stack Trace:
+  File "/usr/local/lib/python3.10/site-packages/dagster/_core/execution/plan/utils.py", line 47, in solid_execution_error_boundary
+    yield
+  File "/usr/local/lib/python3.10/site-packages/dagster/_utils/__init__.py", line 430, in iterate_with_context
+    next_output = next(iterator)
+  File "/usr/local/lib/python3.10/site-packages/dagster/_core/execution/plan/compute_generator.py", line 73, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/workspaces/pipeline-environment/test_dagster/test_dagster/ops/my_ops.py", line 34, in dump_file
+    minio_conn.add_file(file_name)
+[0m
