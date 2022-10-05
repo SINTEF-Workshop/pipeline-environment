@@ -1,5 +1,4 @@
 import json
-import minio
 import dateutil.parser
 import pendulum
 import nats
@@ -17,7 +16,7 @@ from minio_conn import MinioClient
     tags=['AIS'],
 )
 def dump_to_s3():
-    home = '/home/erik/datapipelines-benchmark/ais_pipeline/airflow_ais/dags'
+    home = '/workspaces/pipeline-environment/test_airflow/dags'
     """
     ### AIS-Pipeline
     """
@@ -26,10 +25,10 @@ def dump_to_s3():
         """
         Creates the file to be dumped into s3 bucket
         """
-        data = "{home}/data"
+        data = f"{home}/data"
         os.makedirs(data, exist_ok=True)
         utc = pytz.utc
-        now = utc.localize(datetime.now() - timedelta(hours=2))
+        now = utc.localize(datetime.now() + timedelta(hours=2))
         start_time = utc.localize(datetime.today() - timedelta(days=1))
         file = open(f"{home}/data/{format(str(now))}",  'a')
         file.close()
@@ -39,18 +38,18 @@ def dump_to_s3():
         print("start_time")
         print(start_time)
 
-        return_obj = {"now" : now, "start_time": start_time}
+        return_dict = {"now" : now, "start_time": start_time}
+        return_json = json.dumps(return_dict, indent=4, sort_keys=True, default=str)
 
-        return return_obj
+        return return_json
 
     @task()
     def collect_messages(dates):
         # Pull based consumer on 'ais'.
+        dates_dict = json.loads(dates)
 
-        print("DATES")
-        print(dates)
-        end_time = dates["now"]
-        start_time = dates["start_time"]
+        end_time = dateutil.parser.parse(dates_dict["now"])
+        start_time = dateutil.parser.parse(dates_dict["start_time"])
 
         asyncio.run(get_messages(start_time, end_time))
 
@@ -76,7 +75,7 @@ def dump_to_s3():
         file.close()
 
     async def get_messages(start_time, end_time):
-        nc = await nats.connect("sandbox-toys-nats.sandbox.svc.cluster.local:4222")
+        nc = await nats.connect("localhost:4222")
         js = nc.jetstream()
         psub = await js.subscribe("ais", durable="hllo")
 
