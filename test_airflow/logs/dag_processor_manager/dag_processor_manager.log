@@ -2873,3 +2873,35 @@ File Path                                                       PID    Runtime  
 ================================================================================
 [2022-10-05T17:01:38.099+0000] {manager.py:724} INFO - Searching for files in /workspaces/pipeline-environment/test_airflow/dags
 [2022-10-05T17:01:38.101+0000] {manager.py:727} INFO - There are 1 files in /workspaces/pipeline-environment/test_airflow/dags
+[2022-10-05T17:02:00.026+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.21s           2022-10-05T17:02:00
+================================================================================
+[2022-10-05T17:02:30.395+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.31s           2022-10-05T17:02:30
+================================================================================
+[2022-10-05T17:03:00.664+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.21s           2022-10-05T17:03:00
+================================================================================
+[2022-10-05T17:03:30.923+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/test_airflow/dags/pipeline.py                           1           0  0.21s           2022-10-05T17:03:30
+================================================================================
