@@ -18,18 +18,14 @@ class MinioClient:
         return client
 
     def add_file(self, name, path):
-        # Make 'asiatrip' bucket if not exist.
+        # Make the bucket if it doesn't exists
         found = self.client.bucket_exists("ais")
         if not found:
             self.client.make_bucket("ais")
         else:
             print("Bucket 'ais' already exists")
      
-        # Upload '/home/user/Photos/asiaphotos.zip' as object name
-        # 'asiaphotos-2015.zip' to bucket 'asiatrip'.
-        self.client.fput_object(
-            "ais", name, path,
-        )
+        self.client.fput_object("ais", name, path)
      
         print(
             f"'{path}' is successfully uploaded as "
