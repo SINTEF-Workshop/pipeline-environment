@@ -37,7 +37,7 @@ class TrackMaker():
         'stop_geom', 'start_time', 'stop_time', 'courseoverground', 'avg_cog', 'speedoverground', 'avg_sog', 'loc', 'line_geom', 'msgtime'))
 
         for traj in tqdm(traj_list):
-            if traj.shape[0] > 10:
+            if traj.shape[0] > 5:
                 line = LineString(list(zip(traj['longitude'], traj['latitude'])))
                 start_loc = Point(traj.iloc[0]['longitude'], traj.iloc[0]['latitude'])
                 stop_loc = Point(traj.iloc[-1]['longitude'], traj.iloc[-1]['latitude'])
@@ -155,8 +155,7 @@ class TrackMaker():
         for i in tqdm(range(len(traj_index) - 1)):
             traj = ais[traj_index[i]:traj_index[i + 1]]
 
-            if traj.shape[0] > 10:
-                print("YEEEES")
+            if traj.shape[0] > 5:
                 i+=1
                 if interpolate:
                     traj_list.append(self.interpolate_traj(traj))

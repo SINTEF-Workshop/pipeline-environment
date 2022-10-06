@@ -2,31 +2,12 @@ from dagster import get_dagster_logger, op
 import asyncio
 import pandas as pd
 import json
+import geopandas as gpd
 from datetime import datetime, timedelta
 import dateutil.parser
 
-# @op(
-#     required_resource_keys={"nats_client"},
-#     config_schema={"subject_name": str, "durable_name": str}
-# )
-# async def collect_messages(context):
-#     """ 
-#     Collects messages from nats and writes them to a file
-#     """
-#     nats_conn = context.resources.nats_client
-#     nc = await nats_conn.get_connection("localhost:4222")
-#     slow_storage = context.resources.slow_storage
-#     append_func = context.resources.slow_storage.append_to_dataframe
-
-#     subject = context.op_config["subject_name"]
-#     durable = context.op_config["durable_name"]
-
-#     df_list = await slow_storage.consumer(nc, append_func, subject, durable)
-
-#     return df_list
-
 @op(required_resource_keys={"nats_client"})
-async def collect_messages2(context, interval: tuple[datetime, datetime]) -> list[pd.DataFrame]:
+async def collect_data(context, interval: tuple[datetime, datetime]) -> list[pd.DataFrame]:
     """ Collect messages from nats stream and store in DataFrame """
     nats_conn = context.resources.nats_client
     end_time, start_time = interval
@@ -44,35 +25,44 @@ async def collect_messages2(context, interval: tuple[datetime, datetime]) -> lis
     # Close NATS connection
     await nc.close()
 
+    logger = get_dagster_logger()
+    logger.info(df_list)
+
     return df_list
 
 @op
-def create_dataframe(collect_messages):
+def create_dataframe(collect_messages: list[pd.DataFrame]) -> pd.DataFrame:
+    """ Create a singe DataFrame from the list of DataFrames"""
     df = pd.concat(collect_messages)
     return df
 
 @op(required_resource_keys={"track_maker"})
-def create_tracks(context, dataframe):
-    trips = asyncio.run(context.resources.track_maker.create_trajectories(dataframe))
+def create_tracks(context, dataframe: pd.DataFrame) -> gpd.GeoDataFrame:
+    """ Creates the trajectories and stores them in a GeoDataFrame """
     logger = get_dagster_logger()
+    logger.info(dataframe)
+    trips = asyncio.run(context.resources.track_maker.create_trajectories(dataframe))
     logger.info(trips)
+
     return trips
 
 @op
-def save_to_pickle(trips):
+def save_to_pickle(trips: gpd.GeoDataFrame) -> str:
+    """ Saves the trajectories to file and returns the path """
     path = 'test_dagster/data/trajectories/trips.pkl'
     trips.to_pickle(path)
     return path
 
 @op(required_resource_keys={"track_maker"})
-def create_geo_dataframe(context, path_to_pickle):
+def create_geo_dataframe(context, path_to_pickle: str) -> gpd.GeoDataFrame:
     gdf = context.resources.track_maker.load_trips(path_to_pickle)
     logger = get_dagster_logger()
     logger.info(gdf)
     return gdf
 
 @op(required_resource_keys={"postgres"})
-def save_to_postgis(context, geodataframe):
+def save_to_postgis(context, geodataframe: gpd.GeoDataFrame):
+    """ Inserts the trajectories to postgis """
     asyncio.run(context.resources.postgres.geodf_to_postgis(geodataframe))
 
 async def get_messages(psub, end_time, start_time):

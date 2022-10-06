@@ -20,6 +20,7 @@ class PostgresConn:
     def execute_sql(self, command):
         try:
             self.cursor.execute(command)
+            self.connection.commit()
         except (Exception, psycopg2.Error) as e:
             raise e
 
@@ -45,8 +46,11 @@ class PostgresConn:
         print(df)
         await self.complete_transaction("ais.combined", df, self.cursor)
 
+
     async def geodf_to_postgis(self, gdf):
         # df.to_sql('ais.combined', self.engine, method=self.psql_insert_copy, if_exists='append', index=False)
+        self.execute_sql("CREATE SCHEMA IF NOT EXISTS ais;")
+        # self.execute_sql("CREATE EXTENSION IF NOT EXISTS postgis;")
         gdf.to_postgis("trajectories", self.engine, schema='ais', if_exists='append', index=False)
 
     def psql_insert_copy(self, table, conn, keys, data_iter):
