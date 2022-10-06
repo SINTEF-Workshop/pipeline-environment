@@ -1,0 +1,97 @@
+[2022-10-06T19:55:15.912+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: generate_trajectories.create_tracks manual__2022-10-06T19:55:06.439051+00:00 [queued]>
+[2022-10-06T19:55:15.919+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: generate_trajectories.create_tracks manual__2022-10-06T19:55:06.439051+00:00 [queued]>
+[2022-10-06T19:55:15.919+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-06T19:55:15.919+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-10-06T19:55:15.919+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-06T19:55:15.956+0000] {taskinstance.py:1383} INFO - Executing <Task(_PythonDecoratedOperator): create_tracks> on 2022-10-06 19:55:06.439051+00:00
+[2022-10-06T19:55:15.958+0000] {standard_task_runner.py:54} INFO - Started process 691 to run task
+[2022-10-06T19:55:15.968+0000] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'generate_trajectories', 'create_tracks', 'manual__2022-10-06T19:55:06.439051+00:00', '--job-id', '86', '--raw', '--subdir', 'DAGS_FOLDER/generate_trajectories.py', '--cfg-path', '/tmp/tmpmbf_zabp']
+[2022-10-06T19:55:15.970+0000] {standard_task_runner.py:83} INFO - Job 86: Subtask create_tracks
+[2022-10-06T19:55:15.975+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-06T19:55:17.358+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-06T19:55:17.364+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): collect_messages>, create_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.364+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_dataframe>, collect_messages already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.364+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): collect_messages>, create_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.364+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_dataframe>, collect_messages already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.364+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): collect_messages>, create_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.365+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_dataframe>, collect_messages already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.365+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): collect_messages>, create_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.365+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_dataframe>, collect_messages already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.365+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): collect_messages>, create_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.365+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_dataframe>, collect_messages already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.365+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): collect_messages>, create_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.365+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_dataframe>, collect_messages already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.366+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_dataframe>, create_tracks already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.366+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_tracks>, create_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.366+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_dataframe>, create_tracks already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.366+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_tracks>, create_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.366+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_dataframe>, create_tracks already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.366+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_tracks>, create_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.366+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_dataframe>, create_tracks already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.366+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_tracks>, create_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.367+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_dataframe>, create_tracks already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.367+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_tracks>, create_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.367+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_dataframe>, create_tracks already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.367+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_tracks>, create_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.367+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_tracks>, save_to_pickle already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.368+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): save_to_pickle>, create_tracks already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.368+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_tracks>, save_to_pickle already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.368+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): save_to_pickle>, create_tracks already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.368+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_tracks>, save_to_pickle already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.368+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): save_to_pickle>, create_tracks already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.368+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_tracks>, save_to_pickle already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.368+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): save_to_pickle>, create_tracks already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.368+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_tracks>, save_to_pickle already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.369+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): save_to_pickle>, create_tracks already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.369+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_tracks>, save_to_pickle already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.369+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): save_to_pickle>, create_tracks already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.369+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): save_to_pickle>, create_geo_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.369+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_geo_dataframe>, save_to_pickle already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.370+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): save_to_pickle>, create_geo_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.370+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_geo_dataframe>, save_to_pickle already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.370+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): save_to_pickle>, create_geo_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.370+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_geo_dataframe>, save_to_pickle already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.370+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): save_to_pickle>, create_geo_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.370+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_geo_dataframe>, save_to_pickle already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.370+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): save_to_pickle>, create_geo_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.370+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_geo_dataframe>, save_to_pickle already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.370+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): save_to_pickle>, create_geo_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.371+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_geo_dataframe>, save_to_pickle already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.371+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_geo_dataframe>, save_to_postgis already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.371+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): save_to_postgis>, create_geo_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.371+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_geo_dataframe>, save_to_postgis already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.371+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): save_to_postgis>, create_geo_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.372+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_geo_dataframe>, save_to_postgis already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.372+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): save_to_postgis>, create_geo_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.372+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_geo_dataframe>, save_to_postgis already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.372+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): save_to_postgis>, create_geo_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.372+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_geo_dataframe>, save_to_postgis already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.372+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): save_to_postgis>, create_geo_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.372+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_geo_dataframe>, save_to_postgis already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.372+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): save_to_postgis>, create_geo_dataframe already registered for DAG: generate_trajectories
+[2022-10-06T19:55:17.435+0000] {task_command.py:384} INFO - Running <TaskInstance: generate_trajectories.create_tracks manual__2022-10-06T19:55:06.439051+00:00 [running]> on host eedffcc3758b
+[2022-10-06T19:55:17.548+0000] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=generate_trajectories
+AIRFLOW_CTX_TASK_ID=create_tracks
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-06T19:55:06.439051+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-06T19:55:06.439051+00:00
+[2022-10-06T19:55:17.549+0000] {track_maker.py:23} INFO - Cleaning data...
+[2022-10-06T19:55:17.558+0000] {track_maker.py:25} INFO - Splitting routes...
+[2022-10-06T19:55:17.563+0000] {logging_mixin.py:117} WARNING - 0it [00:00, ?it/s]
+[2022-10-06T19:55:17.563+0000] {logging_mixin.py:117} WARNING - 0it [00:00, ?it/s]
+[2022-10-06T19:55:17.563+0000] {track_maker.py:27} INFO - Generating tracks...
+[2022-10-06T19:55:17.565+0000] {logging_mixin.py:117} WARNING - 0it [00:00, ?it/s]
+[2022-10-06T19:55:17.566+0000] {logging_mixin.py:117} WARNING - 0it [00:00, ?it/s]
+[2022-10-06T19:55:17.569+0000] {logging_mixin.py:117} INFO - Empty GeoDataFrame
+Columns: [mmsi, start_lon, start_lat, stop_lon, stop_lat, start_loc, stop_loc, start_geom, stop_geom, start_time, stop_time, courseoverground, avg_cog, speedoverground, avg_sog, loc, line_geom, msgtime]
+Index: []
+[2022-10-06T19:55:17.570+0000] {python.py:177} INFO - Done. Returned value was: Empty GeoDataFrame
+Columns: [mmsi, start_lon, start_lat, stop_lon, stop_lat, start_loc, stop_loc, start_geom, stop_geom, start_time, stop_time, courseoverground, avg_cog, speedoverground, avg_sog, loc, line_geom, msgtime]
+Index: []
+[2022-10-06T19:55:17.607+0000] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=generate_trajectories, task_id=create_tracks, execution_date=20221006T195506, start_date=20221006T195515, end_date=20221006T195517
+[2022-10-06T19:55:17.661+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-10-06T19:55:17.710+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
