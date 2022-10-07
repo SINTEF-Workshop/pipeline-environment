@@ -1,0 +1,11 @@
+{
+    "flow_name": "dump_to_s3",
+    "import_path": "dump_to_s3.py:dump_to_s3",
+    "parameter_openapi_schema": {
+        "title": "Parameters",
+        "type": "object",
+        "properties": {},
+        "required": null,
+        "definitions": null
+    }
+}
