@@ -19,7 +19,6 @@ This will setup a stream service that you can publish messages to. But you first
 
     nats stream add ais_stream --subjects "ais" --storage file --replicas 1 --retention limits --discard old --max-msgs=-1 --max-msgs-per-subject=-1 --max-bytes=-1 --max-age=-1 --max-msg-size=-1 --dupe-window="2m0s" --no-allow-rollup --no-deny-delete --no-deny-purge
 
-
 # Dagster
 To run dagster, cd into the directory test_dagster (with the workspace.yaml file) and execute this command:
 
@@ -35,4 +34,19 @@ To run airflow, just go the test_airflow folder and execute this command:
     airflow standalone
 
 This will start up all the necessary processes (scheduler, UI, executor)
+
+# Prefect
+To run prefect, navigate to the test_prefect folder and execute this command:
+
+### Setup API + UI
+    prefect orion start
+
+### Setup Agent (for scheduling)
+
+    prefect agent start -q ais_stream
+
+### Create deployments
+
+    prefect deployment build dump_to_s3.py:dump_to_s3 -n dump_to_s3 -q ais_queue
+
 
