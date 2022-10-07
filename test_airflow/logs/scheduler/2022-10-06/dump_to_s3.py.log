@@ -1126,3 +1126,11 @@
 [2022-10-06T20:16:50.866+0000] {logging_mixin.py:117} INFO - [2022-10-06T20:16:50.866+0000] {dag.py:2573} INFO - Sync 1 DAGs
 [2022-10-06T20:16:50.881+0000] {logging_mixin.py:117} INFO - [2022-10-06T20:16:50.881+0000] {dag.py:3324} INFO - Setting next_dagrun for dump_to_s3 to None, run_after=None
 [2022-10-06T20:16:50.926+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/dump_to_s3.py took 0.283 seconds
+[2022-10-06T20:17:21.681+0000] {processor.py:156} INFO - Started process (PID=8329) to work on /workspaces/pipeline-environment/test_airflow/dags/dump_to_s3.py
+[2022-10-06T20:17:21.682+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/dump_to_s3.py for tasks to queue
+[2022-10-06T20:17:21.682+0000] {logging_mixin.py:117} INFO - [2022-10-06T20:17:21.682+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/dump_to_s3.py
+[2022-10-06T20:17:21.738+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-06T20:17:21.748+0000] {processor.py:768} INFO - DAG(s) dict_keys(['dump_to_s3']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/dump_to_s3.py
+[2022-10-06T20:17:21.769+0000] {logging_mixin.py:117} INFO - [2022-10-06T20:17:21.768+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-06T20:17:21.787+0000] {logging_mixin.py:117} INFO - [2022-10-06T20:17:21.786+0000] {dag.py:3324} INFO - Setting next_dagrun for dump_to_s3 to None, run_after=None
+[2022-10-06T20:17:21.829+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/dump_to_s3.py took 0.152 seconds

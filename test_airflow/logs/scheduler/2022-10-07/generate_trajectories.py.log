@@ -1,0 +1,216 @@
+[2022-10-07T07:43:20.714+0000] {processor.py:156} INFO - Started process (PID=2014) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:43:20.715+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:43:20.715+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:43:20.715+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:43:21.898+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:43:21.918+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:43:21.931+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:43:21.930+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:43:21.952+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:43:21.952+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:43:22.012+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 1.302 seconds
+[2022-10-07T07:43:52.318+0000] {processor.py:156} INFO - Started process (PID=2893) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:43:52.319+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:43:52.320+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:43:52.320+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:43:53.165+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:43:53.180+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:43:53.197+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:43:53.196+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:43:53.211+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:43:53.211+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:43:53.253+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.939 seconds
+[2022-10-07T07:44:24.027+0000] {processor.py:156} INFO - Started process (PID=3247) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:44:24.028+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:44:24.028+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:44:24.028+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:44:24.829+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:44:24.842+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:44:24.858+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:44:24.858+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:44:24.873+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:44:24.873+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:44:24.922+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.898 seconds
+[2022-10-07T07:44:55.056+0000] {processor.py:156} INFO - Started process (PID=3441) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:44:55.057+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:44:55.058+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:44:55.058+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:44:55.857+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:44:55.871+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:44:55.887+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:44:55.886+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:44:55.902+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:44:55.902+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:44:55.950+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.897 seconds
+[2022-10-07T07:45:26.834+0000] {processor.py:156} INFO - Started process (PID=5391) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:45:26.834+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:45:26.835+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:45:26.835+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:45:27.650+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:45:27.664+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:45:27.684+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:45:27.682+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:45:27.700+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:45:27.700+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:45:27.751+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.921 seconds
+[2022-10-07T07:45:58.447+0000] {processor.py:156} INFO - Started process (PID=5577) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:45:58.448+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:45:58.449+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:45:58.449+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:45:59.256+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:45:59.270+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:45:59.287+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:45:59.287+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:45:59.300+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:45:59.300+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:45:59.344+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.900 seconds
+[2022-10-07T07:46:29.881+0000] {processor.py:156} INFO - Started process (PID=5773) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:46:29.882+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:46:29.882+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:46:29.882+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:46:30.706+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:46:30.722+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:46:30.741+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:46:30.740+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:46:30.755+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:46:30.755+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:46:30.804+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.927 seconds
+[2022-10-07T07:47:01.025+0000] {processor.py:156} INFO - Started process (PID=5972) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:47:01.026+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:47:01.027+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:47:01.027+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:47:01.908+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:47:01.922+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:47:01.939+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:47:01.938+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:47:01.952+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:47:01.952+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:47:02.000+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.979 seconds
+[2022-10-07T07:47:32.171+0000] {processor.py:156} INFO - Started process (PID=6153) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:47:32.172+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:47:32.173+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:47:32.172+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:47:32.914+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:47:32.931+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:47:32.949+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:47:32.949+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:47:32.966+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:47:32.966+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:47:33.013+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.845 seconds
+[2022-10-07T07:48:03.214+0000] {processor.py:156} INFO - Started process (PID=6335) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:48:03.214+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:48:03.215+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:48:03.215+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:48:03.948+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:48:03.963+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:48:03.980+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:48:03.979+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:48:03.995+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:48:03.995+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:48:04.039+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.828 seconds
+[2022-10-07T07:48:34.257+0000] {processor.py:156} INFO - Started process (PID=6574) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:48:34.258+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:48:34.258+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:48:34.258+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:48:34.992+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:48:35.005+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:48:35.022+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:48:35.021+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:48:35.038+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:48:35.038+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:48:35.091+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.838 seconds
+[2022-10-07T07:49:05.295+0000] {processor.py:156} INFO - Started process (PID=6763) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:49:05.296+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:49:05.296+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:49:05.296+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:49:06.046+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:49:06.061+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:49:06.079+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:49:06.077+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:49:06.094+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:49:06.094+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:49:06.139+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.848 seconds
+[2022-10-07T07:49:36.304+0000] {processor.py:156} INFO - Started process (PID=6967) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:49:36.305+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:49:36.305+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:49:36.305+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:49:37.037+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:49:37.054+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:49:37.075+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:49:37.074+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:49:37.091+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:49:37.091+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:49:37.135+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.835 seconds
+[2022-10-07T07:50:07.314+0000] {processor.py:156} INFO - Started process (PID=7791) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:50:07.315+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:50:07.316+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:50:07.315+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:50:08.065+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:50:08.079+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:50:08.097+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:50:08.097+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:50:08.111+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:50:08.111+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:50:08.160+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.850 seconds
+[2022-10-07T07:50:39.411+0000] {processor.py:156} INFO - Started process (PID=8153) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:50:39.412+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:50:39.412+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:50:39.412+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:50:40.125+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:50:40.140+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:50:40.156+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:50:40.156+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:50:40.169+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:50:40.169+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:50:40.213+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.806 seconds
+[2022-10-07T07:51:10.860+0000] {processor.py:156} INFO - Started process (PID=9831) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:51:10.861+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:51:10.861+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:51:10.861+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:51:11.586+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:51:11.600+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:51:11.617+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:51:11.617+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:51:11.632+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:51:11.631+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:51:11.677+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.821 seconds
+[2022-10-07T07:51:42.571+0000] {processor.py:156} INFO - Started process (PID=10025) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:51:42.572+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:51:42.572+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:51:42.572+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:51:43.327+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:51:43.343+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:51:43.359+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:51:43.358+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:51:43.372+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:51:43.372+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:51:43.420+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.853 seconds
+[2022-10-07T07:52:14.347+0000] {processor.py:156} INFO - Started process (PID=12560) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:52:14.348+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:52:14.349+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:52:14.349+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:52:15.074+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:52:15.088+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:52:15.104+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:52:15.104+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:52:15.119+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:52:15.119+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:52:15.163+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.818 seconds
+[2022-10-07T07:52:46.024+0000] {processor.py:156} INFO - Started process (PID=13245) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:52:46.025+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:52:46.026+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:52:46.026+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:52:46.887+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:52:46.901+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:52:46.918+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:52:46.918+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:52:46.934+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:52:46.933+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:52:46.980+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.960 seconds
+[2022-10-07T07:53:43.661+0000] {processor.py:156} INFO - Started process (PID=18572) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:53:43.662+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:53:43.662+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:53:43.662+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:53:44.589+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:53:44.607+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:53:44.693+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:53:44.692+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:53:44.714+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:53:44.714+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:53:44.757+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 1.101 seconds
+[2022-10-07T07:54:15.035+0000] {processor.py:156} INFO - Started process (PID=19528) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:54:15.036+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:54:15.037+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:54:15.037+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:54:15.868+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:54:15.887+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:54:15.912+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:54:15.912+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:54:15.934+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:54:15.934+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:54:15.989+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.958 seconds
+[2022-10-07T07:54:46.176+0000] {processor.py:156} INFO - Started process (PID=19977) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:54:46.177+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:54:46.178+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:54:46.178+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:54:46.990+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:54:47.005+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:54:47.024+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:54:47.023+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:54:47.039+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:54:47.038+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:54:47.093+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.920 seconds
+[2022-10-07T07:55:17.293+0000] {processor.py:156} INFO - Started process (PID=20852) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:55:17.294+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:55:17.294+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:55:17.294+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:55:18.034+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:55:18.050+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:55:18.067+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:55:18.067+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:55:18.081+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:55:18.081+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:55:18.129+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.840 seconds
+[2022-10-07T07:55:48.334+0000] {processor.py:156} INFO - Started process (PID=21018) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:55:48.335+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:55:48.336+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:55:48.336+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:55:49.084+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:55:49.098+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:55:49.115+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:55:49.115+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:55:49.130+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:55:49.129+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:55:49.176+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.846 seconds
+[2022-10-07T07:56:19.262+0000] {processor.py:156} INFO - Started process (PID=21184) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:56:19.263+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:56:19.263+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:56:19.263+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:56:20.010+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:56:20.025+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:56:20.042+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:56:20.042+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:56:20.056+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:56:20.056+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:56:20.105+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.847 seconds
+[2022-10-07T07:56:50.960+0000] {processor.py:156} INFO - Started process (PID=21362) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:56:50.961+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:56:50.962+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:56:50.962+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:56:51.703+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:56:51.716+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:56:51.733+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:56:51.732+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:56:51.746+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:56:51.746+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:56:51.789+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.832 seconds
+[2022-10-07T07:57:22.621+0000] {processor.py:156} INFO - Started process (PID=21572) to work on /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:57:22.622+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py for tasks to queue
+[2022-10-07T07:57:22.622+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:57:22.622+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:57:23.362+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-07T07:57:23.376+0000] {processor.py:768} INFO - DAG(s) dict_keys(['generate_trajectories']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py
+[2022-10-07T07:57:23.393+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:57:23.392+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-07T07:57:23.407+0000] {logging_mixin.py:117} INFO - [2022-10-07T07:57:23.407+0000] {dag.py:3324} INFO - Setting next_dagrun for generate_trajectories to None, run_after=None
+[2022-10-07T07:57:23.458+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/generate_trajectories.py took 0.840 seconds
