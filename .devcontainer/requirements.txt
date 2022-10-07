@@ -2,6 +2,7 @@ dagster
 dagit
 dagster-postgres
 apache-airflow
+prefect==2.3.2
 minio 
 nats-py 
 pandas
