@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/pipeline-environment/test_dagster/mlruns/0/1636040a08374e838ae6e35e37c7cfb1/artifacts
+end_time: 1666198302475
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 1636040a08374e838ae6e35e37c7cfb1
+run_uuid: 1636040a08374e838ae6e35e37c7cfb1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1666198278518
+status: 3
+tags: []
+user_id: vscode

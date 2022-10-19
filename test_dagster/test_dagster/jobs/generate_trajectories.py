@@ -1,6 +1,6 @@
 from dagster import job 
 
-from test_dagster.ops.trajectory_ops import collect_data, create_dataframe, create_tracks, save_to_pickle, create_geo_dataframe, save_to_postgis
+from test_dagster.ops.trajectory_ops import collect_data, create_tracks, save_to_pickle, create_geo_dataframe, save_to_postgis, clean_ais, create_routes, gen_trips
 from test_dagster.ops.dump_to_s3_ops import get_interval
 from test_dagster.resources.my_resources import nats_client, postgres, track_resource
 # from dagster_ais.resources.other_resources import track_resource, slow_storage
@@ -25,13 +25,13 @@ from test_dagster.resources.my_resources import nats_client, postgres, track_res
 )
 def generate_trajectories():
     """
-    A job definition. This example job has a single op.
+    Job that generates trajectories and stores them in postgres, as well as to a pickle file
     """
     interval = get_interval()
-    collect = collect_data(interval)
-    df = create_dataframe(collect)
-    trips = create_tracks(df)
+    data = collect_data(interval)
+    cleaned = clean_ais(data)
+    routes = create_routes(cleaned)
+    trips = gen_trips(routes)
     save_to_pickle(trips)
-    # geo = create_geo_dataframe(pkl)
     save_to_postgis(trips)
     
