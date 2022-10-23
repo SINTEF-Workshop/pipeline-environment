@@ -13,6 +13,7 @@ def predict(model, scaler, x, y, pred_horizon=55):
     x = torch.from_numpy(scaler.transform(x)).float()
     y = torch.from_numpy(scaler.transform(y)).float()
 
+
     with torch.no_grad():
 
         pred = torch.zeros(y.shape)
@@ -58,6 +59,8 @@ def train_model():
         mlflow.autolog()
         mlflow.pytorch.log_model(pytorch_model=model, artifact_path='prediction_model')
         mlflow.sklearn.log_model(dm.scaler, artifact_path='scaler')
+        log("ARTIFACT URI: ")
+        log(mlflow.get_artifact_uri())
 
         # Training
         early_stop_callback = pl.callbacks.early_stopping.EarlyStopping(monitor="val_loss", patience=patience,
@@ -74,13 +77,21 @@ def train_model():
 
         log(model)
         #torch.save(model,'../prelim_results/models/rnn_models/rnn_100.pt')
+        return mlflow.get_artifact_uri()
 
-@asset(compute_kind="python", group_name="ml_assets")
-def trajectory_model():
+@asset(compute_kind="mlflow", group_name="ml_assets")
+def trajectory_model(trajectory_table):
     """
     Model trained on the trajectory data.
     """
     return train_model()
+
+@asset(compute_kind="mlflow", group_name="ml_assets")
+def trajectory_forecast(context, trajectory_model):
+    """
+    Route forecasting based on trajectory_model
+    """
+    context.log.info(trajectory_model)
 
 # # Creates a job that runs all the assets in the restaurants repository.
 ml_model_job = define_asset_job("ml_model", selection="*")

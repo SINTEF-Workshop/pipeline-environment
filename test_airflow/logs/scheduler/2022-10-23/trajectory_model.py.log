@@ -1,0 +1,945 @@
+[2022-10-23T20:57:08.247+0000] {processor.py:156} INFO - Started process (PID=23755) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T20:57:08.247+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T20:57:08.248+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:57:08.248+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T20:57:09.964+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:57:09.964+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpw7i11s85
+[2022-10-23T20:57:09.965+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:57:09.965+0000] {instantiator.py:76} INFO - Writing /tmp/tmpw7i11s85/_remote_module_non_scriptable.py
+[2022-10-23T20:57:11.077+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T20:57:11.086+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T20:57:11.097+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:57:11.097+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T20:57:11.118+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:57:11.117+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T20:57:11.159+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.915 seconds
+[2022-10-23T20:57:41.732+0000] {processor.py:156} INFO - Started process (PID=25617) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T20:57:41.733+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T20:57:41.734+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:57:41.734+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T20:57:43.014+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:57:43.014+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmphzisk15g
+[2022-10-23T20:57:43.015+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:57:43.015+0000] {instantiator.py:76} INFO - Writing /tmp/tmphzisk15g/_remote_module_non_scriptable.py
+[2022-10-23T20:57:43.754+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T20:57:43.760+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T20:57:43.777+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:57:43.777+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T20:57:43.970+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:57:43.969+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T20:57:44.006+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.276 seconds
+[2022-10-23T20:58:14.717+0000] {processor.py:156} INFO - Started process (PID=26222) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T20:58:14.717+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T20:58:14.718+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:58:14.718+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T20:58:16.038+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:58:16.038+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpjd6d4sxh
+[2022-10-23T20:58:16.038+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:58:16.038+0000] {instantiator.py:76} INFO - Writing /tmp/tmpjd6d4sxh/_remote_module_non_scriptable.py
+[2022-10-23T20:58:16.759+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T20:58:16.765+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T20:58:16.781+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:58:16.781+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T20:58:16.794+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:58:16.794+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T20:58:16.834+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.121 seconds
+[2022-10-23T20:58:52.171+0000] {processor.py:156} INFO - Started process (PID=26834) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T20:58:52.172+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T20:58:52.173+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:58:52.173+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T20:58:53.713+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:58:53.713+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpzbtvb6tv
+[2022-10-23T20:58:53.714+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:58:53.714+0000] {instantiator.py:76} INFO - Writing /tmp/tmpzbtvb6tv/_remote_module_non_scriptable.py
+[2022-10-23T20:58:54.489+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T20:58:54.495+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T20:58:54.504+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:58:54.503+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T20:58:54.518+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:58:54.518+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T20:58:54.558+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.390 seconds
+[2022-10-23T20:59:24.692+0000] {processor.py:156} INFO - Started process (PID=29159) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T20:59:24.693+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T20:59:24.693+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:59:24.693+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T20:59:25.960+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:59:25.960+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpl2otzkhn
+[2022-10-23T20:59:25.960+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:59:25.960+0000] {instantiator.py:76} INFO - Writing /tmp/tmpl2otzkhn/_remote_module_non_scriptable.py
+[2022-10-23T20:59:26.687+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T20:59:26.693+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T20:59:26.709+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:59:26.709+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T20:59:26.723+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:59:26.723+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T20:59:26.760+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.071 seconds
+[2022-10-23T20:59:57.339+0000] {processor.py:156} INFO - Started process (PID=29526) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T20:59:57.339+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T20:59:57.340+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:59:57.340+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T20:59:58.632+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:59:58.632+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmposqqhgpr
+[2022-10-23T20:59:58.633+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:59:58.633+0000] {instantiator.py:76} INFO - Writing /tmp/tmposqqhgpr/_remote_module_non_scriptable.py
+[2022-10-23T20:59:59.333+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T20:59:59.339+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T20:59:59.355+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:59:59.355+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T20:59:59.367+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:59:59.367+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T20:59:59.404+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.068 seconds
+[2022-10-23T21:00:30.215+0000] {processor.py:156} INFO - Started process (PID=30331) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:00:30.219+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:00:30.220+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:00:30.220+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:00:31.543+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:00:31.543+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp3gkgb3y2
+[2022-10-23T21:00:31.543+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:00:31.543+0000] {instantiator.py:76} INFO - Writing /tmp/tmp3gkgb3y2/_remote_module_non_scriptable.py
+[2022-10-23T21:00:32.286+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:00:32.292+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:00:32.309+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:00:32.309+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:00:32.322+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:00:32.322+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:00:32.385+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.173 seconds
+[2022-10-23T21:01:03.000+0000] {processor.py:156} INFO - Started process (PID=31052) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:01:03.005+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:01:03.005+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:01:03.005+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:01:04.386+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:01:04.386+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp_wharo7i
+[2022-10-23T21:01:04.388+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:01:04.388+0000] {instantiator.py:76} INFO - Writing /tmp/tmp_wharo7i/_remote_module_non_scriptable.py
+[2022-10-23T21:01:05.130+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:01:05.136+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:01:05.152+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:01:05.152+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:01:05.165+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:01:05.165+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:01:05.226+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.229 seconds
+[2022-10-23T21:01:35.707+0000] {processor.py:156} INFO - Started process (PID=31866) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:01:35.708+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:01:35.709+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:01:35.708+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:01:37.087+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:01:37.087+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpqtb29ovg
+[2022-10-23T21:01:37.088+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:01:37.087+0000] {instantiator.py:76} INFO - Writing /tmp/tmpqtb29ovg/_remote_module_non_scriptable.py
+[2022-10-23T21:01:37.849+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:01:37.854+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:01:37.870+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:01:37.870+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:01:37.883+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:01:37.883+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:01:37.941+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.237 seconds
+[2022-10-23T21:02:08.023+0000] {processor.py:156} INFO - Started process (PID=32677) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:02:08.024+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:02:08.024+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:02:08.024+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:02:09.413+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:02:09.413+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpg1ggqj11
+[2022-10-23T21:02:09.417+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:02:09.417+0000] {instantiator.py:76} INFO - Writing /tmp/tmpg1ggqj11/_remote_module_non_scriptable.py
+[2022-10-23T21:02:10.166+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:02:10.171+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:02:10.188+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:02:10.187+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:02:10.204+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:02:10.203+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:02:10.266+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.246 seconds
+[2022-10-23T21:02:40.403+0000] {processor.py:156} INFO - Started process (PID=1084) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:02:40.403+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:02:40.404+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:02:40.404+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:02:41.782+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:02:41.782+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp3kjp_qg3
+[2022-10-23T21:02:41.783+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:02:41.783+0000] {instantiator.py:76} INFO - Writing /tmp/tmp3kjp_qg3/_remote_module_non_scriptable.py
+[2022-10-23T21:02:42.549+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:02:42.555+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:02:42.571+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:02:42.571+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:02:42.585+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:02:42.585+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:02:42.635+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.235 seconds
+[2022-10-23T21:03:12.781+0000] {processor.py:156} INFO - Started process (PID=1758) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:03:12.785+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:03:12.786+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:03:12.786+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:03:14.112+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:03:14.112+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpjturte1y
+[2022-10-23T21:03:14.113+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:03:14.113+0000] {instantiator.py:76} INFO - Writing /tmp/tmpjturte1y/_remote_module_non_scriptable.py
+[2022-10-23T21:03:14.867+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:03:14.873+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:03:14.890+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:03:14.889+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:03:14.903+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:03:14.903+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:03:14.959+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.181 seconds
+[2022-10-23T21:03:45.096+0000] {processor.py:156} INFO - Started process (PID=2540) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:03:45.097+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:03:45.098+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:03:45.097+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:03:46.434+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:03:46.434+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpsvahmq_n
+[2022-10-23T21:03:46.439+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:03:46.439+0000] {instantiator.py:76} INFO - Writing /tmp/tmpsvahmq_n/_remote_module_non_scriptable.py
+[2022-10-23T21:03:47.182+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:03:47.187+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:03:47.205+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:03:47.204+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:03:47.218+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:03:47.217+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:03:47.279+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.186 seconds
+[2022-10-23T21:04:17.418+0000] {processor.py:156} INFO - Started process (PID=3185) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:04:17.418+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:04:17.419+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:04:17.419+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:04:18.700+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:04:18.700+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpyw7j2qh8
+[2022-10-23T21:04:18.700+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:04:18.700+0000] {instantiator.py:76} INFO - Writing /tmp/tmpyw7j2qh8/_remote_module_non_scriptable.py
+[2022-10-23T21:04:19.411+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:04:19.417+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:04:19.433+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:04:19.433+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:04:19.446+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:04:19.446+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:04:19.486+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.071 seconds
+[2022-10-23T21:04:49.614+0000] {processor.py:156} INFO - Started process (PID=3708) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:04:49.615+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:04:49.615+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:04:49.615+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:04:50.892+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:04:50.892+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp6ek5xau4
+[2022-10-23T21:04:50.892+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:04:50.892+0000] {instantiator.py:76} INFO - Writing /tmp/tmp6ek5xau4/_remote_module_non_scriptable.py
+[2022-10-23T21:04:51.617+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:04:51.623+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:04:51.640+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:04:51.640+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:04:51.653+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:04:51.653+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:04:51.690+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.078 seconds
+[2022-10-23T21:05:21.809+0000] {processor.py:156} INFO - Started process (PID=4094) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:05:21.810+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:05:21.811+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:05:21.810+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:05:23.083+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:05:23.083+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpc1wl3r9l
+[2022-10-23T21:05:23.084+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:05:23.084+0000] {instantiator.py:76} INFO - Writing /tmp/tmpc1wl3r9l/_remote_module_non_scriptable.py
+[2022-10-23T21:05:23.821+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:05:23.826+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:05:23.842+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:05:23.842+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:05:23.855+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:05:23.855+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:05:23.894+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.087 seconds
+[2022-10-23T21:05:54.010+0000] {processor.py:156} INFO - Started process (PID=4608) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:05:54.011+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:05:54.011+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:05:54.011+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:05:55.305+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:05:55.305+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpgfycdjpf
+[2022-10-23T21:05:55.306+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:05:55.306+0000] {instantiator.py:76} INFO - Writing /tmp/tmpgfycdjpf/_remote_module_non_scriptable.py
+[2022-10-23T21:05:56.023+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:05:56.029+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:05:56.045+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:05:56.044+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:05:56.058+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:05:56.058+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:05:56.100+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.093 seconds
+[2022-10-23T21:06:26.225+0000] {processor.py:156} INFO - Started process (PID=5001) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:06:26.226+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:06:26.227+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:06:26.227+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:06:27.522+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:06:27.521+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpwpm1mz_i
+[2022-10-23T21:06:27.522+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:06:27.522+0000] {instantiator.py:76} INFO - Writing /tmp/tmpwpm1mz_i/_remote_module_non_scriptable.py
+[2022-10-23T21:06:28.263+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:06:28.269+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:06:28.285+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:06:28.285+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:06:28.298+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:06:28.298+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:06:28.347+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.125 seconds
+[2022-10-23T21:06:58.530+0000] {processor.py:156} INFO - Started process (PID=5518) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:06:58.531+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:06:58.532+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:06:58.531+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:06:59.802+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:06:59.802+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp8kl6qdqz
+[2022-10-23T21:06:59.803+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:06:59.803+0000] {instantiator.py:76} INFO - Writing /tmp/tmp8kl6qdqz/_remote_module_non_scriptable.py
+[2022-10-23T21:07:00.676+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:07:00.683+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:07:00.752+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:07:00.751+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:07:00.808+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:07:00.808+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:07:00.882+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.355 seconds
+[2022-10-23T21:07:31.171+0000] {processor.py:156} INFO - Started process (PID=7026) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:07:31.172+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:07:31.173+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:07:31.173+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:07:32.511+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:07:32.511+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmprc8tsnwb
+[2022-10-23T21:07:32.511+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:07:32.511+0000] {instantiator.py:76} INFO - Writing /tmp/tmprc8tsnwb/_remote_module_non_scriptable.py
+[2022-10-23T21:07:33.320+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:07:33.328+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:07:33.366+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:07:33.366+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:07:33.497+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:07:33.496+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:07:33.536+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.368 seconds
+[2022-10-23T21:08:03.688+0000] {processor.py:156} INFO - Started process (PID=8048) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:08:03.689+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:08:03.689+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:08:03.689+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:08:04.951+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:08:04.951+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpejrqcmav
+[2022-10-23T21:08:04.952+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:08:04.952+0000] {instantiator.py:76} INFO - Writing /tmp/tmpejrqcmav/_remote_module_non_scriptable.py
+[2022-10-23T21:08:05.684+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:08:05.690+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:08:05.708+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:08:05.706+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:08:05.721+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:08:05.721+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:08:05.757+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.072 seconds
+[2022-10-23T21:08:35.855+0000] {processor.py:156} INFO - Started process (PID=8547) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:08:35.855+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:08:35.856+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:08:35.856+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:08:37.121+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:08:37.121+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp1eenrsrz
+[2022-10-23T21:08:37.121+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:08:37.121+0000] {instantiator.py:76} INFO - Writing /tmp/tmp1eenrsrz/_remote_module_non_scriptable.py
+[2022-10-23T21:08:37.829+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:08:37.835+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:08:37.851+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:08:37.850+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:08:37.863+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:08:37.863+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:08:37.900+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.048 seconds
+[2022-10-23T21:09:08.022+0000] {processor.py:156} INFO - Started process (PID=9014) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:09:08.023+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:09:08.023+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:09:08.023+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:09:09.301+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:09:09.301+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpvg6_i1fz
+[2022-10-23T21:09:09.302+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:09:09.302+0000] {instantiator.py:76} INFO - Writing /tmp/tmpvg6_i1fz/_remote_module_non_scriptable.py
+[2022-10-23T21:09:10.009+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:09:10.015+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:09:10.031+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:09:10.031+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:09:10.044+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:09:10.044+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:09:10.083+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.063 seconds
+[2022-10-23T21:09:40.189+0000] {processor.py:156} INFO - Started process (PID=9545) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:09:40.190+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:09:40.190+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:09:40.190+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:09:41.459+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:09:41.459+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp59l3h0v0
+[2022-10-23T21:09:41.460+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:09:41.460+0000] {instantiator.py:76} INFO - Writing /tmp/tmp59l3h0v0/_remote_module_non_scriptable.py
+[2022-10-23T21:09:42.170+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:09:42.177+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:09:42.195+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:09:42.195+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:09:42.208+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:09:42.208+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:09:42.246+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.061 seconds
+[2022-10-23T21:10:12.354+0000] {processor.py:156} INFO - Started process (PID=9933) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:10:12.355+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:10:12.355+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:10:12.355+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:10:13.630+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:10:13.629+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpm44bm1sc
+[2022-10-23T21:10:13.630+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:10:13.630+0000] {instantiator.py:76} INFO - Writing /tmp/tmpm44bm1sc/_remote_module_non_scriptable.py
+[2022-10-23T21:10:14.322+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:10:14.327+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:10:14.344+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:10:14.343+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:10:14.356+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:10:14.356+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:10:14.400+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.049 seconds
+[2022-10-23T21:10:57.341+0000] {processor.py:156} INFO - Started process (PID=10869) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:10:57.342+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:10:57.343+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:10:57.343+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:10:58.996+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:10:58.995+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpz_btru3n
+[2022-10-23T21:10:58.996+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:10:58.996+0000] {instantiator.py:76} INFO - Writing /tmp/tmpz_btru3n/_remote_module_non_scriptable.py
+[2022-10-23T21:10:59.752+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:10:59.757+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:10:59.765+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:10:59.765+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:10:59.779+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:10:59.779+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:10:59.817+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.478 seconds
+[2022-10-23T21:11:30.064+0000] {processor.py:156} INFO - Started process (PID=12835) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:11:30.065+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:11:30.065+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:11:30.065+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:11:31.335+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:11:31.335+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp71yh1ry0
+[2022-10-23T21:11:31.335+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:11:31.335+0000] {instantiator.py:76} INFO - Writing /tmp/tmp71yh1ry0/_remote_module_non_scriptable.py
+[2022-10-23T21:11:32.045+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:11:32.050+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:11:32.067+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:11:32.067+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:11:32.080+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:11:32.080+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:11:32.116+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.055 seconds
+[2022-10-23T21:12:02.884+0000] {processor.py:156} INFO - Started process (PID=13366) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:12:02.885+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:12:02.885+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:12:02.885+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:12:04.158+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:12:04.157+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpb5262vhb
+[2022-10-23T21:12:04.158+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:12:04.158+0000] {instantiator.py:76} INFO - Writing /tmp/tmpb5262vhb/_remote_module_non_scriptable.py
+[2022-10-23T21:12:04.862+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:12:04.868+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:12:04.884+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:12:04.884+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:12:04.897+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:12:04.897+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:12:04.933+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.052 seconds
+[2022-10-23T21:12:35.644+0000] {processor.py:156} INFO - Started process (PID=13813) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:12:35.645+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:12:35.645+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:12:35.645+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:12:36.932+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:12:36.932+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpsj6dz_i4
+[2022-10-23T21:12:36.934+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:12:36.933+0000] {instantiator.py:76} INFO - Writing /tmp/tmpsj6dz_i4/_remote_module_non_scriptable.py
+[2022-10-23T21:12:37.651+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:12:37.657+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:12:37.673+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:12:37.672+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:12:37.685+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:12:37.685+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:12:37.723+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.082 seconds
+[2022-10-23T21:13:08.229+0000] {processor.py:156} INFO - Started process (PID=14344) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:13:08.230+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:13:08.230+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:13:08.230+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:13:09.498+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:13:09.497+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpzap_ybuu
+[2022-10-23T21:13:09.498+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:13:09.498+0000] {instantiator.py:76} INFO - Writing /tmp/tmpzap_ybuu/_remote_module_non_scriptable.py
+[2022-10-23T21:13:10.220+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:13:10.226+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:13:10.242+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:13:10.242+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:13:10.256+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:13:10.256+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:13:10.294+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.067 seconds
+[2022-10-23T21:13:40.691+0000] {processor.py:156} INFO - Started process (PID=15161) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:13:40.692+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:13:40.692+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:13:40.692+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:13:41.980+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:13:41.980+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpo10kf68q
+[2022-10-23T21:13:41.981+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:13:41.981+0000] {instantiator.py:76} INFO - Writing /tmp/tmpo10kf68q/_remote_module_non_scriptable.py
+[2022-10-23T21:13:42.701+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:13:42.707+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:13:42.724+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:13:42.723+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:13:42.739+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:13:42.739+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:13:42.776+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.089 seconds
+[2022-10-23T21:14:13.160+0000] {processor.py:156} INFO - Started process (PID=16144) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:14:13.161+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:14:13.161+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:14:13.161+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:14:14.427+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:14:14.427+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpppl5t2sx
+[2022-10-23T21:14:14.427+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:14:14.427+0000] {instantiator.py:76} INFO - Writing /tmp/tmpppl5t2sx/_remote_module_non_scriptable.py
+[2022-10-23T21:14:15.117+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:14:15.123+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:14:15.138+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:14:15.138+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:14:15.152+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:14:15.152+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:14:15.191+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.034 seconds
+[2022-10-23T21:14:45.358+0000] {processor.py:156} INFO - Started process (PID=16589) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:14:45.359+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:14:45.360+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:14:45.359+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:14:46.643+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:14:46.643+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpo0zz8gxc
+[2022-10-23T21:14:46.643+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:14:46.643+0000] {instantiator.py:76} INFO - Writing /tmp/tmpo0zz8gxc/_remote_module_non_scriptable.py
+[2022-10-23T21:14:47.340+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:14:47.345+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:14:47.362+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:14:47.361+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:14:47.374+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:14:47.374+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:14:47.414+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.058 seconds
+[2022-10-23T21:15:17.551+0000] {processor.py:156} INFO - Started process (PID=17125) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:15:17.552+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:15:17.553+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:15:17.553+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:15:18.816+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:15:18.815+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpjx49ek2y
+[2022-10-23T21:15:18.816+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:15:18.816+0000] {instantiator.py:76} INFO - Writing /tmp/tmpjx49ek2y/_remote_module_non_scriptable.py
+[2022-10-23T21:15:19.533+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:15:19.538+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:15:19.554+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:15:19.554+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:15:19.567+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:15:19.567+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:15:19.604+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.055 seconds
+[2022-10-23T21:15:49.745+0000] {processor.py:156} INFO - Started process (PID=17607) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:15:49.746+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:15:49.747+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:15:49.747+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:15:51.023+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:15:51.023+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpcs4xi_s7
+[2022-10-23T21:15:51.023+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:15:51.023+0000] {instantiator.py:76} INFO - Writing /tmp/tmpcs4xi_s7/_remote_module_non_scriptable.py
+[2022-10-23T21:15:51.728+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:15:51.733+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:15:51.752+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:15:51.751+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:15:51.765+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:15:51.765+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:15:51.804+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.061 seconds
+[2022-10-23T21:16:21.942+0000] {processor.py:156} INFO - Started process (PID=18163) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:16:21.943+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:16:21.943+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:16:21.943+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:16:23.271+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:16:23.271+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpx3jtkplj
+[2022-10-23T21:16:23.271+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:16:23.271+0000] {instantiator.py:76} INFO - Writing /tmp/tmpx3jtkplj/_remote_module_non_scriptable.py
+[2022-10-23T21:16:24.054+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:16:24.060+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:16:24.078+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:16:24.077+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:16:24.091+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:16:24.091+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:16:24.131+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.191 seconds
+[2022-10-23T21:16:54.251+0000] {processor.py:156} INFO - Started process (PID=18649) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:16:54.252+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:16:54.252+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:16:54.252+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:16:55.602+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:16:55.601+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpw0bhrzc_
+[2022-10-23T21:16:55.602+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:16:55.602+0000] {instantiator.py:76} INFO - Writing /tmp/tmpw0bhrzc_/_remote_module_non_scriptable.py
+[2022-10-23T21:16:56.312+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:16:56.317+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:16:56.333+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:16:56.333+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:16:56.352+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:16:56.352+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:16:56.409+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.161 seconds
+[2022-10-23T21:17:26.547+0000] {processor.py:156} INFO - Started process (PID=19185) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:17:26.548+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:17:26.549+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:17:26.548+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:17:27.824+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:17:27.824+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpywldmdgl
+[2022-10-23T21:17:27.826+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:17:27.826+0000] {instantiator.py:76} INFO - Writing /tmp/tmpywldmdgl/_remote_module_non_scriptable.py
+[2022-10-23T21:17:28.527+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:17:28.533+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:17:28.550+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:17:28.549+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:17:28.562+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:17:28.562+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:17:28.600+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.056 seconds
+[2022-10-23T21:17:58.785+0000] {processor.py:156} INFO - Started process (PID=19686) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:17:58.786+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:17:58.787+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:17:58.786+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:18:00.124+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:18:00.123+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp85cwzsvb
+[2022-10-23T21:18:00.125+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:18:00.125+0000] {instantiator.py:76} INFO - Writing /tmp/tmp85cwzsvb/_remote_module_non_scriptable.py
+[2022-10-23T21:18:00.822+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:18:00.828+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:18:00.843+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:18:00.843+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:18:00.856+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:18:00.856+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:18:00.898+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.116 seconds
+[2022-10-23T21:18:31.079+0000] {processor.py:156} INFO - Started process (PID=20141) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:18:31.080+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:18:31.081+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:18:31.081+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:18:32.357+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:18:32.357+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpi5muz14x
+[2022-10-23T21:18:32.357+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:18:32.357+0000] {instantiator.py:76} INFO - Writing /tmp/tmpi5muz14x/_remote_module_non_scriptable.py
+[2022-10-23T21:18:33.051+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:18:33.056+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:18:33.072+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:18:33.072+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:18:33.085+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:18:33.085+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:18:33.124+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.047 seconds
+[2022-10-23T21:19:03.274+0000] {processor.py:156} INFO - Started process (PID=20674) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:19:03.275+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:19:03.276+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:19:03.276+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:19:04.548+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:19:04.548+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpmajyg5wn
+[2022-10-23T21:19:04.549+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:19:04.549+0000] {instantiator.py:76} INFO - Writing /tmp/tmpmajyg5wn/_remote_module_non_scriptable.py
+[2022-10-23T21:19:05.257+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:19:05.263+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:19:05.279+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:19:05.279+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:19:05.293+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:19:05.293+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:19:05.331+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.060 seconds
+[2022-10-23T21:19:35.470+0000] {processor.py:156} INFO - Started process (PID=21106) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:19:35.470+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:19:35.471+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:19:35.471+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:19:36.771+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:19:36.771+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp1j3e3__p
+[2022-10-23T21:19:36.771+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:19:36.771+0000] {instantiator.py:76} INFO - Writing /tmp/tmp1j3e3__p/_remote_module_non_scriptable.py
+[2022-10-23T21:19:37.486+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:19:37.491+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:19:37.507+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:19:37.507+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:19:37.521+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:19:37.521+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:19:37.558+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.091 seconds
+[2022-10-23T21:20:07.675+0000] {processor.py:156} INFO - Started process (PID=21710) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:20:07.676+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:20:07.676+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:20:07.676+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:20:08.962+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:20:08.961+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpqtc0oioi
+[2022-10-23T21:20:08.962+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:20:08.962+0000] {instantiator.py:76} INFO - Writing /tmp/tmpqtc0oioi/_remote_module_non_scriptable.py
+[2022-10-23T21:20:09.685+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:20:09.690+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:20:09.707+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:20:09.706+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:20:09.721+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:20:09.721+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:20:09.758+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.086 seconds
+[2022-10-23T21:20:39.878+0000] {processor.py:156} INFO - Started process (PID=22420) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:20:39.879+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:20:39.880+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:20:39.880+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:20:41.367+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:20:41.367+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpd7uqykc8
+[2022-10-23T21:20:41.368+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:20:41.368+0000] {instantiator.py:76} INFO - Writing /tmp/tmpd7uqykc8/_remote_module_non_scriptable.py
+[2022-10-23T21:20:42.088+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:20:42.093+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:20:42.110+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:20:42.110+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:20:42.123+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:20:42.123+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:20:42.160+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.284 seconds
+[2022-10-23T21:21:02.896+0000] {processor.py:156} INFO - Started process (PID=23301) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:21:02.897+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:21:02.897+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:21:02.897+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:21:04.523+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:21:04.523+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpk3ebds09
+[2022-10-23T21:21:04.524+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:21:04.524+0000] {instantiator.py:76} INFO - Writing /tmp/tmpk3ebds09/_remote_module_non_scriptable.py
+[2022-10-23T21:21:05.649+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:21:05.658+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:21:05.670+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:21:05.670+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:21:05.691+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:21:05.691+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:21:05.738+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.846 seconds
+[2022-10-23T21:21:36.454+0000] {processor.py:156} INFO - Started process (PID=24084) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:21:36.455+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:21:36.455+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:21:36.455+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:21:37.729+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:21:37.729+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp4i7pn0ps
+[2022-10-23T21:21:37.730+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:21:37.730+0000] {instantiator.py:76} INFO - Writing /tmp/tmp4i7pn0ps/_remote_module_non_scriptable.py
+[2022-10-23T21:21:38.440+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:21:38.445+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:21:38.463+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:21:38.462+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:21:38.477+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:21:38.477+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:21:38.517+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.066 seconds
+[2022-10-23T21:22:09.057+0000] {processor.py:156} INFO - Started process (PID=24541) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:22:09.058+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:22:09.058+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:22:09.058+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:22:10.424+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:22:10.423+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp893krwly
+[2022-10-23T21:22:10.424+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:22:10.424+0000] {instantiator.py:76} INFO - Writing /tmp/tmp893krwly/_remote_module_non_scriptable.py
+[2022-10-23T21:22:11.202+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:22:11.207+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:22:11.224+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:22:11.224+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:22:11.238+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:22:11.237+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:22:11.275+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.221 seconds
+[2022-10-23T21:22:42.027+0000] {processor.py:156} INFO - Started process (PID=25098) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:22:42.028+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:22:42.028+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:22:42.028+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:22:43.307+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:22:43.307+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpja4ebqmx
+[2022-10-23T21:22:43.308+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:22:43.308+0000] {instantiator.py:76} INFO - Writing /tmp/tmpja4ebqmx/_remote_module_non_scriptable.py
+[2022-10-23T21:22:44.021+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:22:44.027+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:22:44.042+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:22:44.042+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:22:44.055+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:22:44.055+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:22:44.097+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.072 seconds
+[2022-10-23T21:22:55.639+0000] {processor.py:156} INFO - Started process (PID=25407) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:22:55.640+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:22:55.640+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:22:55.640+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:22:57.154+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:22:57.153+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpwx366_81
+[2022-10-23T21:22:57.154+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:22:57.154+0000] {instantiator.py:76} INFO - Writing /tmp/tmpwx366_81/_remote_module_non_scriptable.py
+[2022-10-23T21:22:57.928+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:22:57.934+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:22:57.942+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:22:57.941+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:22:57.956+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:22:57.955+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:22:57.995+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.359 seconds
+[2022-10-23T21:23:28.939+0000] {processor.py:156} INFO - Started process (PID=28132) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:23:28.940+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:23:28.941+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:23:28.940+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:23:30.276+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:23:30.276+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmplhwqnw09
+[2022-10-23T21:23:30.276+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:23:30.276+0000] {instantiator.py:76} INFO - Writing /tmp/tmplhwqnw09/_remote_module_non_scriptable.py
+[2022-10-23T21:23:30.978+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:23:30.984+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:23:31.000+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:23:31.000+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:23:31.013+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:23:31.013+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:23:31.049+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.112 seconds
+[2022-10-23T21:24:01.553+0000] {processor.py:156} INFO - Started process (PID=29004) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:24:01.554+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:24:01.554+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:24:01.554+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:24:02.821+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:24:02.821+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp9z2cd07n
+[2022-10-23T21:24:02.821+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:24:02.821+0000] {instantiator.py:76} INFO - Writing /tmp/tmp9z2cd07n/_remote_module_non_scriptable.py
+[2022-10-23T21:24:03.541+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:24:03.546+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:24:03.563+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:24:03.563+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:24:03.576+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:24:03.576+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:24:03.614+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.063 seconds
+[2022-10-23T21:24:34.383+0000] {processor.py:156} INFO - Started process (PID=29705) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:24:34.384+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:24:34.384+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:24:34.384+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:24:35.655+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:24:35.655+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp8i50vt7d
+[2022-10-23T21:24:35.657+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:24:35.656+0000] {instantiator.py:76} INFO - Writing /tmp/tmp8i50vt7d/_remote_module_non_scriptable.py
+[2022-10-23T21:24:36.384+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:24:36.390+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:24:36.406+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:24:36.406+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:24:36.419+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:24:36.419+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:24:36.457+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.077 seconds
+[2022-10-23T21:25:06.844+0000] {processor.py:156} INFO - Started process (PID=30305) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:25:06.845+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:25:06.845+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:25:06.845+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:25:08.125+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:25:08.125+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpyzn136ev
+[2022-10-23T21:25:08.126+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:25:08.126+0000] {instantiator.py:76} INFO - Writing /tmp/tmpyzn136ev/_remote_module_non_scriptable.py
+[2022-10-23T21:25:08.846+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:25:08.852+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:25:08.869+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:25:08.869+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:25:08.882+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:25:08.882+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:25:08.919+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.078 seconds
+[2022-10-23T21:25:39.323+0000] {processor.py:156} INFO - Started process (PID=31086) to work on /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:25:39.324+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:25:39.325+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:25:39.324+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:25:40.621+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:25:40.621+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpaacfvp62
+[2022-10-23T21:25:40.621+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:25:40.621+0000] {instantiator.py:76} INFO - Writing /tmp/tmpaacfvp62/_remote_module_non_scriptable.py
+[2022-10-23T21:25:41.344+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:25:41.350+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py
+[2022-10-23T21:25:41.365+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:25:41.365+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:25:41.379+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:25:41.379+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:25:41.415+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/trajectory_model.py took 2.096 seconds
+[2022-10-23T21:26:18.667+0000] {processor.py:156} INFO - Started process (PID=31831) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:26:18.668+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:26:18.668+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:26:18.668+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:26:19.949+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:26:19.949+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpql2bc2fa
+[2022-10-23T21:26:19.950+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:26:19.949+0000] {instantiator.py:76} INFO - Writing /tmp/tmpql2bc2fa/_remote_module_non_scriptable.py
+[2022-10-23T21:26:20.658+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:26:20.665+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:26:20.673+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:26:20.673+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:26:20.687+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:26:20.687+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:26:20.723+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.059 seconds
+[2022-10-23T21:26:51.203+0000] {processor.py:156} INFO - Started process (PID=774) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:26:51.204+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:26:51.204+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:26:51.204+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:26:52.548+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:26:52.547+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp3xrysxhl
+[2022-10-23T21:26:52.548+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:26:52.548+0000] {instantiator.py:76} INFO - Writing /tmp/tmp3xrysxhl/_remote_module_non_scriptable.py
+[2022-10-23T21:26:53.357+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:26:53.363+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:26:53.379+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:26:53.379+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:26:53.392+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:26:53.392+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:26:53.429+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.230 seconds
+[2022-10-23T21:27:23.838+0000] {processor.py:156} INFO - Started process (PID=1270) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:27:23.839+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:27:23.840+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:27:23.840+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:27:25.188+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:27:25.188+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpnodj9tg3
+[2022-10-23T21:27:25.188+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:27:25.188+0000] {instantiator.py:76} INFO - Writing /tmp/tmpnodj9tg3/_remote_module_non_scriptable.py
+[2022-10-23T21:27:25.933+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:27:25.939+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:27:25.955+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:27:25.954+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:27:25.968+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:27:25.968+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:27:26.004+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.168 seconds
+[2022-10-23T21:27:56.089+0000] {processor.py:156} INFO - Started process (PID=5112) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:27:56.089+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:27:56.090+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:27:56.090+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:27:57.439+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:27:57.439+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpdicywxpe
+[2022-10-23T21:27:57.440+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:27:57.440+0000] {instantiator.py:76} INFO - Writing /tmp/tmpdicywxpe/_remote_module_non_scriptable.py
+[2022-10-23T21:27:58.154+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:27:58.160+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:27:58.175+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:27:58.175+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:27:58.188+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:27:58.188+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:27:58.226+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.140 seconds
+[2022-10-23T21:28:28.442+0000] {processor.py:156} INFO - Started process (PID=8147) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:28:28.443+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:28:28.443+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:28:28.443+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:28:29.743+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:28:29.743+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpf_vcan1v
+[2022-10-23T21:28:29.744+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:28:29.744+0000] {instantiator.py:76} INFO - Writing /tmp/tmpf_vcan1v/_remote_module_non_scriptable.py
+[2022-10-23T21:28:30.470+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:28:30.475+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:28:30.491+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:28:30.491+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:28:30.504+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:28:30.504+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:28:30.543+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.104 seconds
+[2022-10-23T21:29:13.798+0000] {processor.py:156} INFO - Started process (PID=10879) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:29:13.798+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:29:13.799+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:29:13.799+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:29:15.073+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:29:15.073+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp62y05la3
+[2022-10-23T21:29:15.074+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:29:15.074+0000] {instantiator.py:76} INFO - Writing /tmp/tmp62y05la3/_remote_module_non_scriptable.py
+[2022-10-23T21:29:15.788+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:29:15.794+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:29:15.802+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:29:15.801+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:29:15.817+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:29:15.817+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:29:15.855+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.060 seconds
+[2022-10-23T21:29:46.354+0000] {processor.py:156} INFO - Started process (PID=12631) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:29:46.355+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:29:46.355+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:29:46.355+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:29:47.617+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:29:47.617+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpaqt1wgw9
+[2022-10-23T21:29:47.618+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:29:47.618+0000] {instantiator.py:76} INFO - Writing /tmp/tmpaqt1wgw9/_remote_module_non_scriptable.py
+[2022-10-23T21:29:48.330+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:29:48.337+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:29:48.355+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:29:48.355+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:29:48.368+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:29:48.368+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:29:48.408+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.057 seconds
+[2022-10-23T21:30:18.886+0000] {processor.py:156} INFO - Started process (PID=13019) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:30:18.887+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:30:18.887+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:30:18.887+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:30:20.193+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:30:20.193+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpvyczrhvk
+[2022-10-23T21:30:20.194+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:30:20.194+0000] {instantiator.py:76} INFO - Writing /tmp/tmpvyczrhvk/_remote_module_non_scriptable.py
+[2022-10-23T21:30:20.914+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:30:20.921+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:30:20.939+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:30:20.939+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:30:20.952+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:30:20.952+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:30:21.001+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.117 seconds
+[2022-10-23T21:30:46.608+0000] {processor.py:156} INFO - Started process (PID=13947) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:30:46.609+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:30:46.609+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:30:46.609+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:30:47.999+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:30:47.999+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmplruyxr78
+[2022-10-23T21:30:48.000+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:30:48.000+0000] {instantiator.py:76} INFO - Writing /tmp/tmplruyxr78/_remote_module_non_scriptable.py
+[2022-10-23T21:30:48.719+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:30:48.725+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:30:48.732+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:30:48.732+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:30:48.746+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:30:48.746+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:30:48.797+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.192 seconds
+[2022-10-23T21:31:19.287+0000] {processor.py:156} INFO - Started process (PID=16061) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:31:19.290+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:31:19.291+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:31:19.291+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:31:20.962+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:31:20.962+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmphy6yczfs
+[2022-10-23T21:31:20.963+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:31:20.963+0000] {instantiator.py:76} INFO - Writing /tmp/tmphy6yczfs/_remote_module_non_scriptable.py
+[2022-10-23T21:31:21.706+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:31:21.711+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:31:21.728+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:31:21.727+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:31:21.740+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:31:21.740+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:31:21.776+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.495 seconds
+[2022-10-23T21:31:52.029+0000] {processor.py:156} INFO - Started process (PID=17796) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:31:52.030+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:31:52.031+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:31:52.030+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:31:53.321+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:31:53.321+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpmkmam002
+[2022-10-23T21:31:53.322+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:31:53.322+0000] {instantiator.py:76} INFO - Writing /tmp/tmpmkmam002/_remote_module_non_scriptable.py
+[2022-10-23T21:31:54.032+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:31:54.037+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:31:54.054+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:31:54.054+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:31:54.067+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:31:54.067+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:31:54.103+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.076 seconds
+[2022-10-23T21:32:24.392+0000] {processor.py:156} INFO - Started process (PID=19269) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:32:24.393+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:32:24.393+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:32:24.393+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:32:25.669+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:32:25.669+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp8iegvgv3
+[2022-10-23T21:32:25.670+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:32:25.670+0000] {instantiator.py:76} INFO - Writing /tmp/tmp8iegvgv3/_remote_module_non_scriptable.py
+[2022-10-23T21:32:26.389+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:32:26.395+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:32:26.411+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:32:26.411+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:32:26.425+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:32:26.425+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:32:26.462+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.073 seconds
+[2022-10-23T21:32:56.721+0000] {processor.py:156} INFO - Started process (PID=19798) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:32:56.722+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:32:56.723+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:32:56.723+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:32:57.995+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:32:57.995+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp880qhes2
+[2022-10-23T21:32:57.996+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:32:57.996+0000] {instantiator.py:76} INFO - Writing /tmp/tmp880qhes2/_remote_module_non_scriptable.py
+[2022-10-23T21:32:58.708+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:32:58.713+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:32:58.729+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:32:58.728+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:32:58.743+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:32:58.742+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:32:58.781+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.062 seconds
+[2022-10-23T21:33:28.949+0000] {processor.py:156} INFO - Started process (PID=20240) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:33:28.950+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:33:28.950+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:33:28.950+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:33:30.267+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:33:30.266+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpp6uw_yfz
+[2022-10-23T21:33:30.267+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:33:30.267+0000] {instantiator.py:76} INFO - Writing /tmp/tmpp6uw_yfz/_remote_module_non_scriptable.py
+[2022-10-23T21:33:31.003+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:33:31.009+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:33:31.029+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:33:31.029+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:33:31.047+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:33:31.047+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:33:31.085+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.139 seconds
+[2022-10-23T21:34:01.273+0000] {processor.py:156} INFO - Started process (PID=23040) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:34:01.274+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:34:01.275+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:34:01.275+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:34:02.764+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:34:02.764+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpooow8e33
+[2022-10-23T21:34:02.765+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:34:02.765+0000] {instantiator.py:76} INFO - Writing /tmp/tmpooow8e33/_remote_module_non_scriptable.py
+[2022-10-23T21:34:03.691+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:34:03.698+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:34:03.768+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:34:03.767+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:34:03.856+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:34:03.856+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:34:03.895+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.625 seconds
+[2022-10-23T21:34:34.309+0000] {processor.py:156} INFO - Started process (PID=25800) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:34:34.310+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:34:34.310+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:34:34.310+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:34:35.623+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:34:35.623+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp5cc3jj7c
+[2022-10-23T21:34:35.623+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:34:35.623+0000] {instantiator.py:76} INFO - Writing /tmp/tmp5cc3jj7c/_remote_module_non_scriptable.py
+[2022-10-23T21:34:36.345+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:34:36.350+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:34:36.366+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:34:36.366+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:34:36.380+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:34:36.379+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:34:36.418+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.112 seconds
+[2022-10-23T21:35:06.607+0000] {processor.py:156} INFO - Started process (PID=27003) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:35:06.614+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:35:06.614+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:35:06.614+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:35:07.912+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:35:07.912+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpkaa9nvf2
+[2022-10-23T21:35:07.913+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:35:07.913+0000] {instantiator.py:76} INFO - Writing /tmp/tmpkaa9nvf2/_remote_module_non_scriptable.py
+[2022-10-23T21:35:08.629+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:35:08.634+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:35:08.651+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:35:08.651+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:35:08.664+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:35:08.664+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:35:08.704+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.100 seconds
+[2022-10-23T21:35:38.904+0000] {processor.py:156} INFO - Started process (PID=27405) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:35:38.905+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:35:38.905+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:35:38.905+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:35:40.199+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:35:40.199+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp6j8l7n3b
+[2022-10-23T21:35:40.200+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:35:40.200+0000] {instantiator.py:76} INFO - Writing /tmp/tmp6j8l7n3b/_remote_module_non_scriptable.py
+[2022-10-23T21:35:40.904+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:35:40.910+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:35:40.928+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:35:40.927+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:35:40.941+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:35:40.941+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:35:40.979+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.077 seconds
+[2022-10-23T21:36:11.099+0000] {processor.py:156} INFO - Started process (PID=28000) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:36:11.099+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:36:11.100+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:36:11.100+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:36:12.407+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:36:12.407+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpg7p_wbt9
+[2022-10-23T21:36:12.408+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:36:12.408+0000] {instantiator.py:76} INFO - Writing /tmp/tmpg7p_wbt9/_remote_module_non_scriptable.py
+[2022-10-23T21:36:13.109+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:36:13.115+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:36:13.131+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:36:13.131+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:36:13.144+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:36:13.143+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:36:13.187+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.091 seconds
+[2022-10-23T21:36:43.307+0000] {processor.py:156} INFO - Started process (PID=28409) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:36:43.308+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:36:43.309+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:36:43.309+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:36:44.692+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:36:44.692+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpml8dikny
+[2022-10-23T21:36:44.692+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:36:44.692+0000] {instantiator.py:76} INFO - Writing /tmp/tmpml8dikny/_remote_module_non_scriptable.py
+[2022-10-23T21:36:45.423+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:36:45.429+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:36:45.446+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:36:45.445+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:36:45.459+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:36:45.459+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:36:45.498+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.194 seconds
+[2022-10-23T21:37:15.617+0000] {processor.py:156} INFO - Started process (PID=28956) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:37:15.617+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:37:15.618+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:37:15.618+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:37:16.950+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:37:16.950+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpa116nlea
+[2022-10-23T21:37:16.952+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:37:16.951+0000] {instantiator.py:76} INFO - Writing /tmp/tmpa116nlea/_remote_module_non_scriptable.py
+[2022-10-23T21:37:17.704+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:37:17.711+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:37:17.727+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:37:17.726+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:37:17.741+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:37:17.740+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:37:17.780+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.166 seconds
+[2022-10-23T21:37:47.917+0000] {processor.py:156} INFO - Started process (PID=29320) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:37:47.918+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:37:47.919+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:37:47.918+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:37:49.249+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:37:49.249+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmppk3sj9l6
+[2022-10-23T21:37:49.250+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:37:49.250+0000] {instantiator.py:76} INFO - Writing /tmp/tmppk3sj9l6/_remote_module_non_scriptable.py
+[2022-10-23T21:37:49.980+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:37:49.986+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:37:50.002+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:37:50.002+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:37:50.015+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:37:50.015+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:37:50.054+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.139 seconds
+[2022-10-23T21:38:20.361+0000] {processor.py:156} INFO - Started process (PID=29853) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:38:20.362+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:38:20.363+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:38:20.363+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:38:21.718+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:38:21.718+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp6jt0vxl9
+[2022-10-23T21:38:21.718+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:38:21.718+0000] {instantiator.py:76} INFO - Writing /tmp/tmp6jt0vxl9/_remote_module_non_scriptable.py
+[2022-10-23T21:38:22.459+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:38:22.465+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:38:22.481+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:38:22.480+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:38:22.495+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:38:22.495+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:38:22.532+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.174 seconds
+[2022-10-23T21:38:52.795+0000] {processor.py:156} INFO - Started process (PID=30259) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:38:52.796+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:38:52.797+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:38:52.796+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:38:54.142+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:38:54.142+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpn6ytairz
+[2022-10-23T21:38:54.143+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:38:54.143+0000] {instantiator.py:76} INFO - Writing /tmp/tmpn6ytairz/_remote_module_non_scriptable.py
+[2022-10-23T21:38:54.964+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:38:54.970+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:38:54.986+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:38:54.986+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:38:55.000+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:38:55.000+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:38:55.038+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.246 seconds
+[2022-10-23T21:39:25.202+0000] {processor.py:156} INFO - Started process (PID=30843) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:39:25.203+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:39:25.203+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:39:25.203+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:39:26.544+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:39:26.544+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp1khxzm8c
+[2022-10-23T21:39:26.544+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:39:26.544+0000] {instantiator.py:76} INFO - Writing /tmp/tmp1khxzm8c/_remote_module_non_scriptable.py
+[2022-10-23T21:39:27.286+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:39:27.292+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:39:27.308+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:39:27.307+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:39:27.321+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:39:27.321+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:39:27.359+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.160 seconds
+[2022-10-23T21:39:57.527+0000] {processor.py:156} INFO - Started process (PID=31258) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:39:57.529+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:39:57.531+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:39:57.530+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:39:58.968+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:39:58.967+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp0qe3jr1w
+[2022-10-23T21:39:58.968+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:39:58.968+0000] {instantiator.py:76} INFO - Writing /tmp/tmp0qe3jr1w/_remote_module_non_scriptable.py
+[2022-10-23T21:39:59.720+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:39:59.726+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:39:59.744+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:39:59.743+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:39:59.757+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:39:59.757+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:39:59.795+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.277 seconds
+[2022-10-23T21:40:29.922+0000] {processor.py:156} INFO - Started process (PID=31756) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:40:29.922+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:40:29.923+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:40:29.923+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:40:31.275+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:40:31.275+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpatef1v4r
+[2022-10-23T21:40:31.275+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:40:31.275+0000] {instantiator.py:76} INFO - Writing /tmp/tmpatef1v4r/_remote_module_non_scriptable.py
+[2022-10-23T21:40:32.012+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:40:32.018+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:40:32.035+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:40:32.035+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:40:32.049+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:40:32.049+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:40:32.087+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.168 seconds
+[2022-10-23T21:41:02.224+0000] {processor.py:156} INFO - Started process (PID=602) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:41:02.225+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:41:02.225+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:41:02.225+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:41:03.633+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:41:03.632+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpb3ejvqre
+[2022-10-23T21:41:03.633+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:41:03.633+0000] {instantiator.py:76} INFO - Writing /tmp/tmpb3ejvqre/_remote_module_non_scriptable.py
+[2022-10-23T21:41:04.566+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:41:04.574+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:41:04.596+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:41:04.595+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:41:04.610+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:41:04.610+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:41:04.650+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.429 seconds
+[2022-10-23T21:41:34.865+0000] {processor.py:156} INFO - Started process (PID=1524) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:41:34.866+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:41:34.866+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:41:34.866+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:41:36.196+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:41:36.196+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmplkr7bwbw
+[2022-10-23T21:41:36.197+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:41:36.197+0000] {instantiator.py:76} INFO - Writing /tmp/tmplkr7bwbw/_remote_module_non_scriptable.py
+[2022-10-23T21:41:36.947+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:41:36.952+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:41:36.969+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:41:36.969+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:41:36.983+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:41:36.983+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:41:37.026+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.164 seconds
+[2022-10-23T21:42:07.165+0000] {processor.py:156} INFO - Started process (PID=2014) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:42:07.166+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:42:07.166+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:42:07.166+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:42:08.524+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:42:08.524+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpd00076hz
+[2022-10-23T21:42:08.525+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:42:08.524+0000] {instantiator.py:76} INFO - Writing /tmp/tmpd00076hz/_remote_module_non_scriptable.py
+[2022-10-23T21:42:09.244+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:42:09.250+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:42:09.267+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:42:09.266+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:42:09.280+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:42:09.280+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:42:09.319+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.157 seconds
+[2022-10-23T21:42:39.572+0000] {processor.py:156} INFO - Started process (PID=2423) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:42:39.573+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:42:39.573+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:42:39.573+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:42:40.912+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:42:40.912+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpq3rxrw89
+[2022-10-23T21:42:40.913+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:42:40.913+0000] {instantiator.py:76} INFO - Writing /tmp/tmpq3rxrw89/_remote_module_non_scriptable.py
+[2022-10-23T21:42:41.637+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:42:41.643+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:42:41.659+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:42:41.659+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:42:41.672+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:42:41.672+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:42:41.714+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.145 seconds
+[2022-10-23T21:43:12.739+0000] {processor.py:156} INFO - Started process (PID=5455) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:43:12.740+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:43:12.741+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:43:12.741+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:43:14.161+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:43:14.161+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpplzkxfq2
+[2022-10-23T21:43:14.161+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:43:14.161+0000] {instantiator.py:76} INFO - Writing /tmp/tmpplzkxfq2/_remote_module_non_scriptable.py
+[2022-10-23T21:43:14.902+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:43:14.908+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:43:14.925+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:43:14.924+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:43:14.939+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:43:14.939+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:43:14.991+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.255 seconds
+[2022-10-23T21:43:45.853+0000] {processor.py:156} INFO - Started process (PID=6699) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:43:45.854+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:43:45.854+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:43:45.854+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:43:47.286+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:43:47.286+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpjg1h5zm1
+[2022-10-23T21:43:47.287+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:43:47.286+0000] {instantiator.py:76} INFO - Writing /tmp/tmpjg1h5zm1/_remote_module_non_scriptable.py
+[2022-10-23T21:43:48.207+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:43:48.215+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:43:48.232+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:43:48.231+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:43:48.257+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:43:48.257+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:43:48.304+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.454 seconds
+[2022-10-23T21:44:18.446+0000] {processor.py:156} INFO - Started process (PID=7735) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:44:18.446+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:44:18.447+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:44:18.447+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:44:19.807+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:44:19.806+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpclfibiak
+[2022-10-23T21:44:19.807+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:44:19.807+0000] {instantiator.py:76} INFO - Writing /tmp/tmpclfibiak/_remote_module_non_scriptable.py
+[2022-10-23T21:44:20.540+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:44:20.546+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:44:20.563+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:44:20.562+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:44:20.577+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:44:20.577+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:44:20.616+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.174 seconds
+[2022-10-23T21:44:51.474+0000] {processor.py:156} INFO - Started process (PID=8650) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:44:51.475+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:44:51.476+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:44:51.476+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:44:52.844+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:44:52.844+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpzyyhovas
+[2022-10-23T21:44:52.844+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:44:52.844+0000] {instantiator.py:76} INFO - Writing /tmp/tmpzyyhovas/_remote_module_non_scriptable.py
+[2022-10-23T21:44:53.607+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:44:53.613+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:44:53.630+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:44:53.630+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:44:53.644+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:44:53.643+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:44:53.683+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.211 seconds
+[2022-10-23T21:45:24.421+0000] {processor.py:156} INFO - Started process (PID=9302) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:45:24.422+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:45:24.423+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:45:24.422+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:45:25.760+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:45:25.760+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpii_kmxwd
+[2022-10-23T21:45:25.761+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:45:25.761+0000] {instantiator.py:76} INFO - Writing /tmp/tmpii_kmxwd/_remote_module_non_scriptable.py
+[2022-10-23T21:45:26.497+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:45:26.502+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:45:26.519+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:45:26.519+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:45:26.532+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:45:26.532+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:45:26.570+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.151 seconds
+[2022-10-23T21:45:57.267+0000] {processor.py:156} INFO - Started process (PID=9727) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:45:57.267+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:45:57.268+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:45:57.268+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:45:58.614+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:45:58.614+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp8zy9qk0t
+[2022-10-23T21:45:58.615+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:45:58.615+0000] {instantiator.py:76} INFO - Writing /tmp/tmp8zy9qk0t/_remote_module_non_scriptable.py
+[2022-10-23T21:45:59.356+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:45:59.362+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:45:59.379+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:45:59.378+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:45:59.392+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:45:59.392+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:45:59.431+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.167 seconds
+[2022-10-23T21:46:29.610+0000] {processor.py:156} INFO - Started process (PID=10309) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:46:29.611+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:46:29.611+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:46:29.611+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:46:30.960+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:46:30.959+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp3detza0_
+[2022-10-23T21:46:30.960+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:46:30.960+0000] {instantiator.py:76} INFO - Writing /tmp/tmp3detza0_/_remote_module_non_scriptable.py
+[2022-10-23T21:46:31.700+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:46:31.706+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:46:31.723+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:46:31.723+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:46:31.736+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:46:31.736+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:46:31.776+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.169 seconds
+[2022-10-23T21:47:01.909+0000] {processor.py:156} INFO - Started process (PID=11742) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:47:01.910+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:47:01.911+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:47:01.911+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:47:03.265+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:47:03.265+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp6y2ihkuz
+[2022-10-23T21:47:03.266+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:47:03.266+0000] {instantiator.py:76} INFO - Writing /tmp/tmp6y2ihkuz/_remote_module_non_scriptable.py
+[2022-10-23T21:47:03.997+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:47:04.003+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:47:04.019+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:47:04.019+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:47:04.032+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:47:04.032+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:47:04.071+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.165 seconds
+[2022-10-23T21:48:08.387+0000] {processor.py:156} INFO - Started process (PID=17069) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:48:08.387+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:48:08.388+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:48:08.388+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:48:09.754+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:48:09.754+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmpumcru7r7
+[2022-10-23T21:48:09.755+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:48:09.755+0000] {instantiator.py:76} INFO - Writing /tmp/tmpumcru7r7/_remote_module_non_scriptable.py
+[2022-10-23T21:48:10.840+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-23T21:48:10.847+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trajectory_model']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:48:10.906+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:48:10.905+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T21:48:10.922+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:48:10.922+0000] {dag.py:3324} INFO - Setting next_dagrun for trajectory_model to None, run_after=None
+[2022-10-23T21:48:11.015+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py took 2.633 seconds
+[2022-10-23T21:48:41.792+0000] {processor.py:156} INFO - Started process (PID=18236) to work on /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:48:41.793+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py for tasks to queue
+[2022-10-23T21:48:41.794+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:48:41.794+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py
+[2022-10-23T21:48:43.129+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:48:43.128+0000] {instantiator.py:21} INFO - Created a temporary directory at /tmp/tmp21slh6jw
+[2022-10-23T21:48:43.129+0000] {logging_mixin.py:117} INFO - [2022-10-23T21:48:43.129+0000] {instantiator.py:76} INFO - Writing /tmp/tmp21slh6jw/_remote_module_non_scriptable.py

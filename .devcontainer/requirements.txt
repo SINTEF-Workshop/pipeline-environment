@@ -1,8 +1,11 @@
+# DAGSTER
 dagster
 dagit
 dagster-postgres
 dagster-slack
+# AIRFLOW
 apache-airflow
+apache-airflow-providers-slack==6.0.0
 prefect==2.3.2
 minio 
 nats-py 

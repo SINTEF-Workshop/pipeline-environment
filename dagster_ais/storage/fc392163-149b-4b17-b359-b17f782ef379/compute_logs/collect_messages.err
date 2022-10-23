@@ -1,0 +1,827 @@
+[32m2022-10-23 19:51:26 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - fc392163-149b-4b17-b359-b17f782ef379 - 3173 - collect_messages - LOGS_CAPTURED - Started capturing logs for step: collect_messages.
+[32m2022-10-23 19:51:26 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - fc392163-149b-4b17-b359-b17f782ef379 - 3173 - collect_messages - STEP_START - Started execution of step "collect_messages".
+[32m2022-10-23 19:51:26 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - fc392163-149b-4b17-b359-b17f782ef379 - 3173 - collect_messages - LOADED_INPUT - Loaded input "create_dump_file" using input manager "io_manager", from output "result" of step "get_interval"
+[32m2022-10-23 19:51:26 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - fc392163-149b-4b17-b359-b17f782ef379 - 3173 - collect_messages - STEP_INPUT - Got input "create_dump_file" of type "Tuple[datetime,datetime]". (Type check passed).
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+nats: encountered error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1301, in _select_next_server
+    await self._transport.connect(
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/transport.py", line 118, in connect
+    r, w = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1075, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('127.0.0.1', 4222), [Errno 99] Cannot assign requested address
+[32m2022-10-23 19:53:27 +0000[0m - dagster - [34mERROR[0m - [31mdump_to_s3 - fc392163-149b-4b17-b359-b17f782ef379 - 3173 - collect_messages - STEP_FAILURE - Execution of step "collect_messages" failed.
+
+dagster._core.errors.DagsterExecutionStepExecutionError: Error occurred while executing op "collect_messages"::
+
+nats.errors.NoServersError: nats: no servers available for connection
+
+Stack Trace:
+  File "/usr/local/lib/python3.10/site-packages/dagster/_core/execution/plan/utils.py", line 47, in solid_execution_error_boundary
+    yield
+  File "/usr/local/lib/python3.10/site-packages/dagster/_utils/__init__.py", line 430, in iterate_with_context
+    next_output = next(iterator)
+  File "/usr/local/lib/python3.10/site-packages/dagster/_core/execution/plan/compute.py", line 109, in gen_from_async_gen
+    yield loop.run_until_complete(async_gen.__anext__())
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.10/site-packages/dagster/_core/execution/plan/compute_generator.py", line 68, in _coerce_async_solid_to_async_gen
+    result = await awaitable
+  File "/workspaces/pipeline-environment/dagster_ais/dagster_ais/ops/dump_to_s3_ops.py", line 27, in collect_messages
+    nc = await nats_conn.get_connection("localhost:4222")
+  File "/workspaces/pipeline-environment/dagster_ais/dagster_ais/components/nats_conn.py", line 14, in get_connection
+    nc = await nats.connect(url)
+  File "/usr/local/lib/python3.10/site-packages/nats/__init__.py", line 44, in connect
+    await nc.connect(servers, **options)
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 478, in connect
+    raise e
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 468, in connect
+    await self._select_next_server()
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/client.py", line 1268, in _select_next_server
+    raise errors.NoServersError
+[0m

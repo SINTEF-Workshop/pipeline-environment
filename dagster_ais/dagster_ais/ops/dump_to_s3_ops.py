@@ -1,5 +1,4 @@
-from dagster import get_dagster_logger, op, HookContext, failure_hook, success_hook
-from dagster_slack import slack_on_success, slack_on_failure
+from dagster import get_dagster_logger, op
 
 import json
 import pytz
@@ -54,22 +53,6 @@ def dump_file(context, file_name: str):
     """Dumps the file to S3 storage"""
     minio_conn = context.resources.minio_client
     minio_conn.add_file(file_name, file_name)
-
-@op(required_resource_keys={'slack'})
-def slack_op(context):
-    context.resources.slack.chat_postMessage(channel='#pipelines', text=':wave: hey there!')
-
-@success_hook(required_resource_keys={"slack"})
-def slack_message_on_success(context: HookContext):
-    """ Sends out slack-message on success """
-    message = f"Op {context.op.name} finished successfully"
-    context.resources.slack.chat_postMessage(channel='#pipelines', text=message)
-
-@failure_hook(required_resource_keys={"slack"})
-def slack_message_on_failure(context: HookContext):
-    """ Sends out slack-message on failure """
-    message = f"Op {context.op.name} failed"
-    context.resources.slack.chat_postMessage(channel="#pipelines", text=message)
 
 # Collects the messages into a dataframe and returns it
 async def get_messages(start_time, end_time, psub):

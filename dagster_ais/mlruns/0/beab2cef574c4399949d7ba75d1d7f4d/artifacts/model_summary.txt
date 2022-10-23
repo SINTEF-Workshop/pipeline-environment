@@ -1,0 +1,11 @@
+  | Name      | Type    | Params
+--------------------------------------
+0 | criterion | MSELoss | 0     
+1 | rnn       | GRU     | 31.2 K
+2 | fc_out1   | Linear  | 5.0 K 
+3 | fc_out    | Linear  | 102   
+--------------------------------------
+36.4 K    Trainable params
+0         Non-trainable params
+36.4 K    Total params
+0.145     Total estimated model params size (MB)

@@ -1,0 +1,9 @@
+[32m2022-10-23 20:41:53 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 0ca914bb-46e6-411a-a4ec-e33affc289e9 - 2248 - trajectory_forecast - LOGS_CAPTURED - Started capturing logs for step: trajectory_forecast.
+[32m2022-10-23 20:41:53 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 0ca914bb-46e6-411a-a4ec-e33affc289e9 - 2248 - trajectory_forecast - STEP_START - Started execution of step "trajectory_forecast".
+[32m2022-10-23 20:41:53 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 0ca914bb-46e6-411a-a4ec-e33affc289e9 - 2248 - trajectory_forecast - ASSET_OBSERVATION - DagsterEventType.ASSET_OBSERVATION for step trajectory_forecast
+[32m2022-10-23 20:41:53 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 0ca914bb-46e6-411a-a4ec-e33affc289e9 - 2248 - trajectory_forecast - LOADED_INPUT - Loaded input "trajectory_model" using input manager "io_manager"
+[32m2022-10-23 20:41:53 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 0ca914bb-46e6-411a-a4ec-e33affc289e9 - 2248 - trajectory_forecast - STEP_INPUT - Got input "trajectory_model" of type "Any". (Type check passed).
+[32m2022-10-23 20:41:53 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 0ca914bb-46e6-411a-a4ec-e33affc289e9 - 2248 - trajectory_forecast - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2022-10-23 20:41:53 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 0ca914bb-46e6-411a-a4ec-e33affc289e9 - 2248 - trajectory_forecast - ASSET_MATERIALIZATION - Materialized value trajectory_forecast.
+[32m2022-10-23 20:41:53 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 0ca914bb-46e6-411a-a4ec-e33affc289e9 - 2248 - trajectory_forecast - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2022-10-23 20:41:53 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 0ca914bb-46e6-411a-a4ec-e33affc289e9 - 2248 - trajectory_forecast - STEP_SUCCESS - Finished execution of step "trajectory_forecast" in 40ms.

@@ -1,0 +1,56 @@
+[2022-10-05T09:51:38.755+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dump_to_s3.create_dump_file manual__2022-10-05T09:51:36.856854+00:00 [queued]>
+[2022-10-05T09:51:38.852+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dump_to_s3.create_dump_file manual__2022-10-05T09:51:36.856854+00:00 [queued]>
+[2022-10-05T09:51:38.853+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-05T09:51:38.853+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-10-05T09:51:38.853+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-05T09:51:39.008+0000] {taskinstance.py:1383} INFO - Executing <Task(_PythonDecoratedOperator): create_dump_file> on 2022-10-05 09:51:36.856854+00:00
+[2022-10-05T09:51:39.021+0000] {standard_task_runner.py:54} INFO - Started process 738 to run task
+[2022-10-05T09:51:39.028+0000] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'dump_to_s3', 'create_dump_file', 'manual__2022-10-05T09:51:36.856854+00:00', '--job-id', '56', '--raw', '--subdir', 'DAGS_FOLDER/pipeline.py', '--cfg-path', '/tmp/tmpr33xtxai']
+[2022-10-05T09:51:39.029+0000] {standard_task_runner.py:83} INFO - Job 56: Subtask create_dump_file
+[2022-10-05T09:51:39.030+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/pipeline.py
+[2022-10-05T09:51:39.140+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-10-05T09:51:39.142+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_dump_file>, collect_messages already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.142+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): collect_messages>, create_dump_file already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.142+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_dump_file>, collect_messages already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.142+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): collect_messages>, create_dump_file already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.143+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_dump_file>, collect_messages already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.143+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): collect_messages>, create_dump_file already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.143+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_dump_file>, collect_messages already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.143+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): collect_messages>, create_dump_file already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.143+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_dump_file>, collect_messages already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.143+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): collect_messages>, create_dump_file already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.143+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): create_dump_file>, collect_messages already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.143+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): collect_messages>, create_dump_file already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.143+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): collect_messages>, dump_to_s3 already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.144+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): dump_to_s3>, collect_messages already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.144+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): collect_messages>, dump_to_s3 already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.144+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): dump_to_s3>, collect_messages already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.144+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): collect_messages>, dump_to_s3 already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.144+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): dump_to_s3>, collect_messages already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.144+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): collect_messages>, dump_to_s3 already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.144+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): dump_to_s3>, collect_messages already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.144+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): collect_messages>, dump_to_s3 already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.145+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): dump_to_s3>, collect_messages already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.145+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): collect_messages>, dump_to_s3 already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.145+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): dump_to_s3>, collect_messages already registered for DAG: dump_to_s3
+[2022-10-05T09:51:39.284+0000] {task_command.py:384} INFO - Running <TaskInstance: dump_to_s3.create_dump_file manual__2022-10-05T09:51:36.856854+00:00 [running]> on host b44ee3804a1a
+[2022-10-05T09:51:39.444+0000] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dump_to_s3
+AIRFLOW_CTX_TASK_ID=create_dump_file
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-05T09:51:36.856854+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-05T09:51:36.856854+00:00
+[2022-10-05T09:51:39.444+0000] {logging_mixin.py:117} INFO - end_time
+[2022-10-05T09:51:39.444+0000] {logging_mixin.py:117} INFO - 2022-10-05 11:51:39.444581+00:00
+[2022-10-05T09:51:39.444+0000] {logging_mixin.py:117} INFO - start_time
+[2022-10-05T09:51:39.445+0000] {logging_mixin.py:117} INFO - 2022-10-04 09:51:39.444620+00:00
+[2022-10-05T09:51:39.445+0000] {python.py:177} INFO - Done. Returned value was: {
+    "now": "2022-10-05 11:51:39.444581+00:00",
+    "start_time": "2022-10-04 09:51:39.444620+00:00"
+}
+[2022-10-05T09:51:39.483+0000] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=dump_to_s3, task_id=create_dump_file, execution_date=20221005T095136, start_date=20221005T095138, end_date=20221005T095139
+[2022-10-05T09:51:39.557+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-10-05T09:51:39.610+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
