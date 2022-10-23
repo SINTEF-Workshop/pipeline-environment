@@ -4,7 +4,7 @@ import pandas as pd
 from io import StringIO
 from psycopg2 import extras
 from sqlalchemy import create_engine
-from test_dagster.components.my_secrets import USERNAME, PASSWORD, DATABASE, HOST, PORT
+from dagster_ais.components.my_secrets import USERNAME, PASSWORD, DATABASE, HOST, PORT
 
 class PostgresConn:
     def __init__(self):

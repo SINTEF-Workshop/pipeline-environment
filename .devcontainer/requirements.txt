@@ -1,6 +1,7 @@
 dagster
 dagit
 dagster-postgres
+dagster-slack
 apache-airflow
 prefect==2.3.2
 minio 

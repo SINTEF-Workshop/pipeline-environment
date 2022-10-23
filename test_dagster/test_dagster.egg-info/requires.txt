@@ -1,5 +1,0 @@
-dagster
-
-[dev]
-dagit
-pytest

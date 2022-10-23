@@ -1,9 +1,0 @@
-[32m2022-10-05 16:28:49 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - a1592b70-c9f1-4a82-bb8e-bdf037fdc019 - 5348 - create_dump_file - LOGS_CAPTURED - Started capturing logs for step: create_dump_file.
-[32m2022-10-05 16:28:49 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - a1592b70-c9f1-4a82-bb8e-bdf037fdc019 - 5348 - create_dump_file - STEP_START - Started execution of step "create_dump_file".
-[32m2022-10-05 16:28:49 +0000[0m - dagster - [34mINFO[0m - dump_to_s3 - a1592b70-c9f1-4a82-bb8e-bdf037fdc019 - create_dump_file - end_time
-[32m2022-10-05 16:28:49 +0000[0m - dagster - [34mINFO[0m - dump_to_s3 - a1592b70-c9f1-4a82-bb8e-bdf037fdc019 - create_dump_file - 2022-10-05 16:28:49.862616+00:00
-[32m2022-10-05 16:28:49 +0000[0m - dagster - [34mINFO[0m - dump_to_s3 - a1592b70-c9f1-4a82-bb8e-bdf037fdc019 - create_dump_file - start_time
-[32m2022-10-05 16:28:49 +0000[0m - dagster - [34mINFO[0m - dump_to_s3 - a1592b70-c9f1-4a82-bb8e-bdf037fdc019 - create_dump_file - 2022-10-04 16:28:49.862629+00:00
-[32m2022-10-05 16:28:49 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - a1592b70-c9f1-4a82-bb8e-bdf037fdc019 - 5348 - create_dump_file - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2022-10-05 16:28:49 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - a1592b70-c9f1-4a82-bb8e-bdf037fdc019 - 5348 - create_dump_file - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2022-10-05 16:28:49 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - a1592b70-c9f1-4a82-bb8e-bdf037fdc019 - 5348 - create_dump_file - STEP_SUCCESS - Finished execution of step "create_dump_file" in 87ms.

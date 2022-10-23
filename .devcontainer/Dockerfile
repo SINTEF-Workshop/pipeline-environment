@@ -4,7 +4,7 @@ FROM mcr.microsoft.com/vscode/devcontainers/python:0-${VARIANT}
 
 ENV PYTHONUNBUFFERED 1
 ENV AIRFLOW_HOME=/workspaces/pipeline-environment/test_airflow
-ENV DAGSTER_HOME=/workspaces/pipeline-environment/test_dagster
+ENV DAGSTER_HOME=/workspaces/pipeline-environment/dagster_ais
 
 # [Choice] Node.js version: none, lts/*, 16, 14, 12, 10
 ARG NODE_VERSION="none"

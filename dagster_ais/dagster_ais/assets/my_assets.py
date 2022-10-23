@@ -75,7 +75,7 @@ def train_model():
         log(model)
         #torch.save(model,'../prelim_results/models/rnn_models/rnn_100.pt')
 
-@asset(compute_kind="python")
+@asset(compute_kind="python", group_name="ml_assets")
 def trajectory_model():
     """
     Model trained on the trajectory data.

@@ -1,6 +1,6 @@
 from minio import Minio
 # from minio.error import S3Error
-from test_dagster.components.my_secrets import ACCESS_KEY, SECRET_KEY
+from dagster_ais.components.my_secrets import ACCESS_KEY, SECRET_KEY
 
 class MinioClient:
     def __init__(self):
