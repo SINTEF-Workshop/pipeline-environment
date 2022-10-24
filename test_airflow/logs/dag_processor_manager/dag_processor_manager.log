@@ -15667,3 +15667,290 @@ File Path                                                                       
 [2022-10-23T21:48:44.074+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
 [2022-10-23T21:48:44.074+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
 [2022-10-23T21:48:44.233+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-10-24T12:46:43.078+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2022-10-24T12:46:43.086+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-10-24T12:46:43.086+0000] {manager.py:485} INFO - Checking for new files in /workspaces/pipeline-environment/airflow_ais/dags every 300 seconds
+[2022-10-24T12:46:43.086+0000] {manager.py:724} INFO - Searching for files in /workspaces/pipeline-environment/airflow_ais/dags
+[2022-10-24T12:46:43.099+0000] {manager.py:727} INFO - There are 13 files in /workspaces/pipeline-environment/airflow_ais/dags
+[2022-10-24T12:46:43.520+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/airflow_ais/dags/slack_test.py                                                                                                     0           0
+/workspaces/pipeline-environment/airflow_ais/dags/generate_trajectories.py                                                                                          0           0
+/workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py                                                                                               0           0
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_3/checkpoints/epoch=66-step=134.ckpt                                      0           0
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_2/checkpoints/epoch=50-step=102.ckpt                                      0           0
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_5/checkpoints/epoch=152-step=306.ckpt                                     0           0
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_6/checkpoints/epoch=39-step=80.ckpt                                       0           0
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_1/checkpoints/epoch=642-step=643.ckpt                                     0           0
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_8/checkpoints/epoch=99-step=300.ckpt                                      0           0
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_7/checkpoints/epoch=99-step=200.ckpt                                      0           0
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/src/ml_models/test_model/restored_model_checkpoint/epoch=0-step=4.ckpt                           0           0
+/workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py                                                                                                0           0
+/workspaces/pipeline-environment/airflow_ais/dags/dump_to_s3.py                                                                                                     1           0  0.21s           2022-10-24T12:46:43
+================================================================================
+[2022-10-24T12:47:14.488+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_3/checkpoints/epoch=66-step=134.ckpt                                      0           0  0.11s           2022-10-24T12:47:00
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_2/checkpoints/epoch=50-step=102.ckpt                                      0           0  0.11s           2022-10-24T12:47:01
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_5/checkpoints/epoch=152-step=306.ckpt                                     0           0  0.11s           2022-10-24T12:46:59
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_6/checkpoints/epoch=39-step=80.ckpt                                       0           0  0.11s           2022-10-24T12:46:56
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_1/checkpoints/epoch=642-step=643.ckpt                                     0           0  0.10s           2022-10-24T12:47:02
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_8/checkpoints/epoch=99-step=300.ckpt                                      0           0  0.11s           2022-10-24T12:46:57
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_7/checkpoints/epoch=99-step=200.ckpt                                      0           0  0.11s           2022-10-24T12:46:58
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/src/ml_models/test_model/restored_model_checkpoint/epoch=0-step=4.ckpt                           0           0  0.11s           2022-10-24T12:46:55
+/workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py                                                                                                0           0  0.11s           2022-10-24T12:46:45
+/workspaces/pipeline-environment/airflow_ais/dags/slack_test.py                                                                                                     1           0  0.21s           2022-10-24T12:46:48
+/workspaces/pipeline-environment/airflow_ais/dags/generate_trajectories.py                                                                                          1           0  1.01s           2022-10-24T12:46:50
+/workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py                                                                                               1           0  2.41s           2022-10-24T12:46:54
+/workspaces/pipeline-environment/airflow_ais/dags/dump_to_s3.py                                                                                                     1           0  0.21s           2022-10-24T12:47:14
+================================================================================
+[2022-10-24T12:47:53.940+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_3/checkpoints/epoch=66-step=134.ckpt                                      0           0  0.11s           2022-10-24T12:47:00
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_2/checkpoints/epoch=50-step=102.ckpt                                      0           0  0.11s           2022-10-24T12:47:01
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_5/checkpoints/epoch=152-step=306.ckpt                                     0           0  0.11s           2022-10-24T12:46:59
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_6/checkpoints/epoch=39-step=80.ckpt                                       0           0  0.11s           2022-10-24T12:46:56
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_1/checkpoints/epoch=642-step=643.ckpt                                     0           0  0.10s           2022-10-24T12:47:02
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_8/checkpoints/epoch=99-step=300.ckpt                                      0           0  0.11s           2022-10-24T12:46:57
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_7/checkpoints/epoch=99-step=200.ckpt                                      0           0  0.11s           2022-10-24T12:46:58
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/src/ml_models/test_model/restored_model_checkpoint/epoch=0-step=4.ckpt                           0           0  0.11s           2022-10-24T12:46:55
+/workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py                                                                                                0           0  0.11s           2022-10-24T12:47:17
+/workspaces/pipeline-environment/airflow_ais/dags/slack_test.py                                                                                                     1           0  0.21s           2022-10-24T12:47:19
+/workspaces/pipeline-environment/airflow_ais/dags/generate_trajectories.py                                                                                          1           0  1.31s           2022-10-24T12:47:23
+/workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py                                                                                               1           0  2.61s           2022-10-24T12:47:27
+/workspaces/pipeline-environment/airflow_ais/dags/dump_to_s3.py                                                                                                     1           0  0.21s           2022-10-24T12:47:53
+================================================================================
+[2022-10-24T12:48:24.488+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_3/checkpoints/epoch=66-step=134.ckpt                                      0           0  0.11s           2022-10-24T12:48:03
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_2/checkpoints/epoch=50-step=102.ckpt                                      0           0  0.11s           2022-10-24T12:48:03
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_5/checkpoints/epoch=152-step=306.ckpt                                     0           0  0.11s           2022-10-24T12:48:03
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_6/checkpoints/epoch=39-step=80.ckpt                                       0           0  0.11s           2022-10-24T12:47:59
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_1/checkpoints/epoch=642-step=643.ckpt                                     0           0  0.11s           2022-10-24T12:48:05
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_8/checkpoints/epoch=99-step=300.ckpt                                      0           0  0.11s           2022-10-24T12:48:01
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_7/checkpoints/epoch=99-step=200.ckpt                                      0           0  0.11s           2022-10-24T12:48:02
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/src/ml_models/test_model/restored_model_checkpoint/epoch=0-step=4.ckpt                           0           0  0.11s           2022-10-24T12:47:58
+/workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py                                                                                                0           0  0.11s           2022-10-24T12:47:55
+/workspaces/pipeline-environment/airflow_ais/dags/slack_test.py                                                                                                     1           0  0.21s           2022-10-24T12:47:56
+/workspaces/pipeline-environment/airflow_ais/dags/generate_trajectories.py                                                                                          1           0  1.11s           2022-10-24T12:47:58
+/workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py                                                                                               1           0  2.41s           2022-10-24T12:48:08
+/workspaces/pipeline-environment/airflow_ais/dags/dump_to_s3.py                                                                                                     1           0  0.21s           2022-10-24T12:48:24
+================================================================================
+[2022-10-24T12:48:55.356+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_3/checkpoints/epoch=66-step=134.ckpt                                      0           0  0.11s           2022-10-24T12:48:36
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_2/checkpoints/epoch=50-step=102.ckpt                                      0           0  0.11s           2022-10-24T12:48:37
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_5/checkpoints/epoch=152-step=306.ckpt                                     0           0  0.11s           2022-10-24T12:48:35
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_6/checkpoints/epoch=39-step=80.ckpt                                       0           0  0.11s           2022-10-24T12:48:32
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_1/checkpoints/epoch=642-step=643.ckpt                                     0           0  0.11s           2022-10-24T12:48:38
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_8/checkpoints/epoch=99-step=300.ckpt                                      0           0  0.11s           2022-10-24T12:48:33
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_7/checkpoints/epoch=99-step=200.ckpt                                      0           0  0.11s           2022-10-24T12:48:33
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/src/ml_models/test_model/restored_model_checkpoint/epoch=0-step=4.ckpt                           0           0  0.11s           2022-10-24T12:48:31
+/workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py                                                                                                0           0  0.11s           2022-10-24T12:48:25
+/workspaces/pipeline-environment/airflow_ais/dags/slack_test.py                                                                                                     1           0  0.21s           2022-10-24T12:48:26
+/workspaces/pipeline-environment/airflow_ais/dags/generate_trajectories.py                                                                                          1           0  0.91s           2022-10-24T12:48:29
+/workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py                                                                                               1           0  2.41s           2022-10-24T12:48:41
+/workspaces/pipeline-environment/airflow_ais/dags/dump_to_s3.py                                                                                                     1           0  0.31s           2022-10-24T12:48:55
+================================================================================
+[2022-10-24T12:49:26.587+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_3/checkpoints/epoch=66-step=134.ckpt                                      0           0  0.11s           2022-10-24T12:49:06
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_2/checkpoints/epoch=50-step=102.ckpt                                      0           0  0.11s           2022-10-24T12:49:08
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_5/checkpoints/epoch=152-step=306.ckpt                                     0           0  0.11s           2022-10-24T12:49:06
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_6/checkpoints/epoch=39-step=80.ckpt                                       0           0  0.11s           2022-10-24T12:49:04
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_1/checkpoints/epoch=642-step=643.ckpt                                     0           0  0.11s           2022-10-24T12:49:09
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_8/checkpoints/epoch=99-step=300.ckpt                                      0           0  0.11s           2022-10-24T12:49:04
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_7/checkpoints/epoch=99-step=200.ckpt                                      0           0  0.11s           2022-10-24T12:49:05
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/src/ml_models/test_model/restored_model_checkpoint/epoch=0-step=4.ckpt                           0           0  0.11s           2022-10-24T12:49:02
+/workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py                                                                                                0           0  0.11s           2022-10-24T12:48:56
+/workspaces/pipeline-environment/airflow_ais/dags/slack_test.py                                                                                                     1           0  0.21s           2022-10-24T12:48:57
+/workspaces/pipeline-environment/airflow_ais/dags/generate_trajectories.py                                                                                          1           0  1.01s           2022-10-24T12:49:01
+/workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py                                                                                               1           0  2.41s           2022-10-24T12:49:13
+/workspaces/pipeline-environment/airflow_ais/dags/dump_to_s3.py                                                                                                     1           0  0.31s           2022-10-24T12:49:26
+================================================================================
+[2022-10-24T12:49:56.810+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_3/checkpoints/epoch=66-step=134.ckpt                                      0           0  0.11s           2022-10-24T12:49:38
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_2/checkpoints/epoch=50-step=102.ckpt                                      0           0  0.11s           2022-10-24T12:49:39
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_5/checkpoints/epoch=152-step=306.ckpt                                     0           0  0.11s           2022-10-24T12:49:37
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_6/checkpoints/epoch=39-step=80.ckpt                                       0           0  0.11s           2022-10-24T12:49:34
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_1/checkpoints/epoch=642-step=643.ckpt                                     0           0  0.11s           2022-10-24T12:49:40
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_8/checkpoints/epoch=99-step=300.ckpt                                      0           0  0.11s           2022-10-24T12:49:35
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_7/checkpoints/epoch=99-step=200.ckpt                                      0           0  0.11s           2022-10-24T12:49:36
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/src/ml_models/test_model/restored_model_checkpoint/epoch=0-step=4.ckpt                           0           0  0.11s           2022-10-24T12:49:34
+/workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py                                                                                                0           0  0.11s           2022-10-24T12:49:27
+/workspaces/pipeline-environment/airflow_ais/dags/slack_test.py                                                                                                     1           0  0.21s           2022-10-24T12:49:28
+/workspaces/pipeline-environment/airflow_ais/dags/generate_trajectories.py                                                                                          1           0  1.01s           2022-10-24T12:49:33
+/workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py                                                                                               1           0  2.41s           2022-10-24T12:49:46
+/workspaces/pipeline-environment/airflow_ais/dags/dump_to_s3.py                                                                                                     1           0  0.21s           2022-10-24T12:49:56
+================================================================================
+[2022-10-24T12:50:27.386+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_3/checkpoints/epoch=66-step=134.ckpt                                      0           0  0.11s           2022-10-24T12:50:10
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_2/checkpoints/epoch=50-step=102.ckpt                                      0           0  0.11s           2022-10-24T12:50:11
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_5/checkpoints/epoch=152-step=306.ckpt                                     0           0  0.11s           2022-10-24T12:50:09
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_6/checkpoints/epoch=39-step=80.ckpt                                       0           0  0.11s           2022-10-24T12:50:06
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_1/checkpoints/epoch=642-step=643.ckpt                                     0           0  0.11s           2022-10-24T12:50:12
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_8/checkpoints/epoch=99-step=300.ckpt                                      0           0  0.12s           2022-10-24T12:50:07
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_7/checkpoints/epoch=99-step=200.ckpt                                      0           0  0.11s           2022-10-24T12:50:08
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/src/ml_models/test_model/restored_model_checkpoint/epoch=0-step=4.ckpt                           0           0  0.11s           2022-10-24T12:50:06
+/workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py                                                                                                0           0  0.11s           2022-10-24T12:49:57
+/workspaces/pipeline-environment/airflow_ais/dags/slack_test.py                                                                                                     1           0  0.21s           2022-10-24T12:49:59
+/workspaces/pipeline-environment/airflow_ais/dags/generate_trajectories.py                                                                                          1           0  1.01s           2022-10-24T12:50:04
+/workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py                                                                                               1           0  2.41s           2022-10-24T12:50:18
+/workspaces/pipeline-environment/airflow_ais/dags/dump_to_s3.py                                                                                                     1           0  0.21s           2022-10-24T12:50:27
+================================================================================
+[2022-10-24T12:50:57.959+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_3/checkpoints/epoch=66-step=134.ckpt                                      0           0  0.11s           2022-10-24T12:50:41
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_2/checkpoints/epoch=50-step=102.ckpt                                      0           0  0.11s           2022-10-24T12:50:42
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_5/checkpoints/epoch=152-step=306.ckpt                                     0           0  0.11s           2022-10-24T12:50:40
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_6/checkpoints/epoch=39-step=80.ckpt                                       0           0  0.11s           2022-10-24T12:50:38
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_1/checkpoints/epoch=642-step=643.ckpt                                     0           0  0.11s           2022-10-24T12:50:43
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_8/checkpoints/epoch=99-step=300.ckpt                                      0           0  0.11s           2022-10-24T12:50:39
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_7/checkpoints/epoch=99-step=200.ckpt                                      0           0  0.11s           2022-10-24T12:50:39
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/src/ml_models/test_model/restored_model_checkpoint/epoch=0-step=4.ckpt                           0           0  0.11s           2022-10-24T12:50:37
+/workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py                                                                                                0           0  0.11s           2022-10-24T12:50:28
+/workspaces/pipeline-environment/airflow_ais/dags/slack_test.py                                                                                                     1           0  0.21s           2022-10-24T12:50:30
+/workspaces/pipeline-environment/airflow_ais/dags/generate_trajectories.py                                                                                          1           0  1.01s           2022-10-24T12:50:36
+/workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py                                                                                               1           0  2.42s           2022-10-24T12:50:51
+/workspaces/pipeline-environment/airflow_ais/dags/dump_to_s3.py                                                                                                     1           0  0.31s           2022-10-24T12:50:57
+================================================================================
+[2022-10-24T12:51:28.633+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_3/checkpoints/epoch=66-step=134.ckpt                                      0           0  0.11s           2022-10-24T12:51:13
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_2/checkpoints/epoch=50-step=102.ckpt                                      0           0  0.11s           2022-10-24T12:51:15
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_5/checkpoints/epoch=152-step=306.ckpt                                     0           0  0.11s           2022-10-24T12:51:12
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_6/checkpoints/epoch=39-step=80.ckpt                                       0           0  0.11s           2022-10-24T12:51:09
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_1/checkpoints/epoch=642-step=643.ckpt                                     0           0  0.11s           2022-10-24T12:51:16
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_8/checkpoints/epoch=99-step=300.ckpt                                      0           0  0.11s           2022-10-24T12:51:11
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_7/checkpoints/epoch=99-step=200.ckpt                                      0           0  0.11s           2022-10-24T12:51:11
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/src/ml_models/test_model/restored_model_checkpoint/epoch=0-step=4.ckpt                           0           0  0.11s           2022-10-24T12:51:08
+/workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py                                                                                                0           0  0.11s           2022-10-24T12:50:59
+/workspaces/pipeline-environment/airflow_ais/dags/slack_test.py                                                                                                     1           0  0.21s           2022-10-24T12:51:01
+/workspaces/pipeline-environment/airflow_ais/dags/generate_trajectories.py                                                                                          1           0  1.01s           2022-10-24T12:51:07
+/workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py                                                                                               1           0  2.41s           2022-10-24T12:51:24
+/workspaces/pipeline-environment/airflow_ais/dags/dump_to_s3.py                                                                                                     1           0  0.31s           2022-10-24T12:51:28
+================================================================================
+[2022-10-24T12:51:43.107+0000] {manager.py:724} INFO - Searching for files in /workspaces/pipeline-environment/airflow_ais/dags
+[2022-10-24T12:51:43.120+0000] {manager.py:727} INFO - There are 13 files in /workspaces/pipeline-environment/airflow_ais/dags
+[2022-10-24T12:51:59.107+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_3/checkpoints/epoch=66-step=134.ckpt                                      0           0  0.11s           2022-10-24T12:51:44
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_2/checkpoints/epoch=50-step=102.ckpt                                      0           0  0.11s           2022-10-24T12:51:45
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_5/checkpoints/epoch=152-step=306.ckpt                                     0           0  0.11s           2022-10-24T12:51:43
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_6/checkpoints/epoch=39-step=80.ckpt                                       0           0  0.11s           2022-10-24T12:51:40
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_1/checkpoints/epoch=642-step=643.ckpt                                     0           0  0.11s           2022-10-24T12:51:47
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_8/checkpoints/epoch=99-step=300.ckpt                                      0           0  0.11s           2022-10-24T12:51:41
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_7/checkpoints/epoch=99-step=200.ckpt                                      0           0  0.11s           2022-10-24T12:51:43
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/src/ml_models/test_model/restored_model_checkpoint/epoch=0-step=4.ckpt                           0           0  0.11s           2022-10-24T12:51:39
+/workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py                                                                                                0           0  0.11s           2022-10-24T12:51:29
+/workspaces/pipeline-environment/airflow_ais/dags/slack_test.py                                                                                                     1           0  0.21s           2022-10-24T12:51:31
+/workspaces/pipeline-environment/airflow_ais/dags/generate_trajectories.py                                                                                          1           0  1.01s           2022-10-24T12:51:38
+/workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py                                                                                               1           0  2.41s           2022-10-24T12:51:56
+/workspaces/pipeline-environment/airflow_ais/dags/dump_to_s3.py                                                                                                     1           0  0.21s           2022-10-24T12:51:59
+================================================================================
+[2022-10-24T12:52:29.477+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_3/checkpoints/epoch=66-step=134.ckpt                                      0           0  0.11s           2022-10-24T12:52:15
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_2/checkpoints/epoch=50-step=102.ckpt                                      0           0  0.11s           2022-10-24T12:52:16
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_5/checkpoints/epoch=152-step=306.ckpt                                     0           0  0.11s           2022-10-24T12:52:14
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_6/checkpoints/epoch=39-step=80.ckpt                                       0           0  0.11s           2022-10-24T12:52:11
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_1/checkpoints/epoch=642-step=643.ckpt                                     0           0  0.11s           2022-10-24T12:52:17
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_8/checkpoints/epoch=99-step=300.ckpt                                      0           0  0.11s           2022-10-24T12:52:12
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_7/checkpoints/epoch=99-step=200.ckpt                                      0           0  0.11s           2022-10-24T12:52:13
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/src/ml_models/test_model/restored_model_checkpoint/epoch=0-step=4.ckpt                           0           0  0.11s           2022-10-24T12:52:11
+/workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py                                                                                                0           0  0.11s           2022-10-24T12:52:00
+/workspaces/pipeline-environment/airflow_ais/dags/slack_test.py                                                                                                     1           0  0.21s           2022-10-24T12:52:02
+/workspaces/pipeline-environment/airflow_ais/dags/generate_trajectories.py                                                                                          1           0  1.01s           2022-10-24T12:52:10
+/workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py                                                                                               1           0  2.51s           2022-10-24T12:52:29
+/workspaces/pipeline-environment/airflow_ais/dags/dump_to_s3.py                                                                                                     1           0  0.21s           2022-10-24T12:51:59
+================================================================================
+[2022-10-24T12:53:02.029+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_3/checkpoints/epoch=66-step=134.ckpt                                      0           0  0.11s           2022-10-24T12:52:47
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_2/checkpoints/epoch=50-step=102.ckpt                                      0           0  0.11s           2022-10-24T12:52:48
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_5/checkpoints/epoch=152-step=306.ckpt                                     0           0  0.11s           2022-10-24T12:52:45
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_6/checkpoints/epoch=39-step=80.ckpt                                       0           0  0.11s           2022-10-24T12:52:43
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_1/checkpoints/epoch=642-step=643.ckpt                                     0           0  0.11s           2022-10-24T12:52:49
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_8/checkpoints/epoch=99-step=300.ckpt                                      0           0  0.11s           2022-10-24T12:52:44
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_7/checkpoints/epoch=99-step=200.ckpt                                      0           0  0.11s           2022-10-24T12:52:44
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/src/ml_models/test_model/restored_model_checkpoint/epoch=0-step=4.ckpt                           0           0  0.11s           2022-10-24T12:52:42
+/workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py                                                                                                0           0  0.11s           2022-10-24T12:52:31
+/workspaces/pipeline-environment/airflow_ais/dags/slack_test.py                                                                                                     1           0  0.21s           2022-10-24T12:52:33
+/workspaces/pipeline-environment/airflow_ais/dags/generate_trajectories.py                                                                                          1           0  1.01s           2022-10-24T12:52:41
+/workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py                                                                                               1           0  2.41s           2022-10-24T12:53:02
+/workspaces/pipeline-environment/airflow_ais/dags/dump_to_s3.py                                                                                                     1           0  0.21s           2022-10-24T12:52:30
+================================================================================
+[2022-10-24T12:53:34.656+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_3/checkpoints/epoch=66-step=134.ckpt                                      0           0  0.11s           2022-10-24T12:53:19
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_2/checkpoints/epoch=50-step=102.ckpt                                      0           0  0.11s           2022-10-24T12:53:20
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_5/checkpoints/epoch=152-step=306.ckpt                                     0           0  0.11s           2022-10-24T12:53:18
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_6/checkpoints/epoch=39-step=80.ckpt                                       0           0  0.11s           2022-10-24T12:53:15
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_1/checkpoints/epoch=642-step=643.ckpt                                     0           0  0.11s           2022-10-24T12:53:21
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_8/checkpoints/epoch=99-step=300.ckpt                                      0           0  0.11s           2022-10-24T12:53:16
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/lightning_logs/version_7/checkpoints/epoch=99-step=200.ckpt                                      0           0  0.11s           2022-10-24T12:53:17
+/workspaces/pipeline-environment/airflow_ais/dags/ML_data_pipeline/src/ml_models/test_model/restored_model_checkpoint/epoch=0-step=4.ckpt                           0           0  0.11s           2022-10-24T12:53:14
+/workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py                                                                                                0           0  0.11s           2022-10-24T12:53:04
+/workspaces/pipeline-environment/airflow_ais/dags/slack_test.py                                                                                                     1           0  0.21s           2022-10-24T12:53:05
+/workspaces/pipeline-environment/airflow_ais/dags/generate_trajectories.py                                                                                          1           0  1.01s           2022-10-24T12:53:13
+/workspaces/pipeline-environment/airflow_ais/dags/trajectory_model.py                                                                                               1           0  2.41s           2022-10-24T12:53:34
+/workspaces/pipeline-environment/airflow_ais/dags/dump_to_s3.py                                                                                                     1           0  0.31s           2022-10-24T12:53:03
+================================================================================

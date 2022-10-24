@@ -1,0 +1,27 @@
+[2022-10-24T12:46:47.505+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: slack_notify.Notify_Slack_DAG_success scheduled__2022-10-23T05:00:00+00:00 [queued]>
+[2022-10-24T12:46:47.512+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: slack_notify.Notify_Slack_DAG_success scheduled__2022-10-23T05:00:00+00:00 [queued]>
+[2022-10-24T12:46:47.513+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-24T12:46:47.513+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-10-24T12:46:47.513+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-24T12:46:47.560+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): Notify_Slack_DAG_success> on 2022-10-23 05:00:00+00:00
+[2022-10-24T12:46:47.562+0000] {standard_task_runner.py:54} INFO - Started process 17770 to run task
+[2022-10-24T12:46:47.566+0000] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'slack_notify', 'Notify_Slack_DAG_success', 'scheduled__2022-10-23T05:00:00+00:00', '--job-id', '139', '--raw', '--subdir', 'DAGS_FOLDER/slack_test.py', '--cfg-path', '/tmp/tmp_ny089fn']
+[2022-10-24T12:46:47.567+0000] {standard_task_runner.py:83} INFO - Job 139: Subtask Notify_Slack_DAG_success
+[2022-10-24T12:46:47.569+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py
+[2022-10-24T12:46:47.688+0000] {task_command.py:384} INFO - Running <TaskInstance: slack_notify.Notify_Slack_DAG_success scheduled__2022-10-23T05:00:00+00:00 [running]> on host 5565aed88557
+[2022-10-24T12:46:47.797+0000] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=slack_notify
+AIRFLOW_CTX_TASK_ID=Notify_Slack_DAG_success
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-23T05:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-10-23T05:00:00+00:00
+[2022-10-24T12:46:47.801+0000] {logging_mixin.py:117} WARNING - /usr/local/lib/python3.10/site-packages/airflow/utils/context.py:297 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2022-10-24T12:46:47.802+0000] {logging_mixin.py:117} WARNING - /home/vscode/.local/lib/python3.10/site-packages/airflow/providers/slack/operators/slack_webhook.py:162 UserWarning: Found unexpected keyword-argument(s) 'link_names' in `send` method. This argument(s) have no effect.
+[2022-10-24T12:46:47.806+0000] {base.py:71} INFO - Using connection ID 'slack_webhook' for task execution.
+[2022-10-24T12:46:48.133+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-10-24T12:46:48.139+0000] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=slack_notify, task_id=Notify_Slack_DAG_success, execution_date=20221023T050000, start_date=20221024T124647, end_date=20221024T124648
+[2022-10-24T12:46:48.218+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-10-24T12:46:48.229+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,7 +1,7 @@
 ###
 ### A complete description of a Prefect Deployment for flow 'trajectory-model'
 ###
-name: trajectory_model
+name: trajectory_model-deployment
 description: null
 version: 4c3a6448b0de829426b7d9cf35ef9ccb
 # The work queue that will handle this deployment's runs
@@ -10,12 +10,6 @@ tags: []
 parameters: {}
 schedule: null
 infra_overrides: {}
-
-###
-### DO NOT EDIT BELOW THIS LINE
-###
-flow_name: trajectory-model
-manifest_path: null
 infrastructure:
   type: process
   env: {}
@@ -26,10 +20,13 @@ infrastructure:
   - -m
   - prefect.engine
   stream_output: true
-  _block_document_id: 6fbda961-caa0-4071-89b8-f054fe1eba7c
-  _block_document_name: anonymous-ad7bca02-efa5-4481-b4a2-e9e774422f8a
-  _is_anonymous: true
   _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: trajectory-model
+manifest_path: null
 storage: null
 path: /workspaces/pipeline-environment/prefect_ais
 entrypoint: trajectory_model.py:trajectory_model
