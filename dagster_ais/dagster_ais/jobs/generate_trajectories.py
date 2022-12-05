@@ -7,7 +7,6 @@ from dagster_ais.resources.my_resources import nats_client, postgres, track_reso
 
 @job(
     resource_defs={
-        # "slow_storage": slow_storage,
         "track_maker": track_resource,
         "postgres": postgres,
         "nats_client": nats_client

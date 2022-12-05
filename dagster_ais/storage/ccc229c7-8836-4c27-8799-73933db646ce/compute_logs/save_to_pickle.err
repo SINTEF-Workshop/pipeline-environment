@@ -1,0 +1,28 @@
+[32m2022-10-27 15:58:29 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - ccc229c7-8836-4c27-8799-73933db646ce - 16467 - save_to_pickle - LOGS_CAPTURED - Started capturing logs for step: save_to_pickle.
+[32m2022-10-27 15:58:29 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - ccc229c7-8836-4c27-8799-73933db646ce - 16467 - save_to_pickle - STEP_START - Started execution of step "save_to_pickle".
+[32m2022-10-27 15:58:29 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - ccc229c7-8836-4c27-8799-73933db646ce - 16467 - save_to_pickle - LOADED_INPUT - Loaded input "trips" using input manager "io_manager", from output "result" of step "gen_trips"
+[32m2022-10-27 15:58:29 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - ccc229c7-8836-4c27-8799-73933db646ce - 16467 - save_to_pickle - STEP_INPUT - Got input "trips" of type "GeoDataFrame". (Type check passed).
+[32m2022-10-27 15:58:29 +0000[0m - dagster - [34mERROR[0m - [31mgenerate_trajectories - ccc229c7-8836-4c27-8799-73933db646ce - 16467 - save_to_pickle - STEP_FAILURE - Execution of step "save_to_pickle" failed.
+
+dagster._core.errors.DagsterExecutionStepExecutionError: Error occurred while executing op "save_to_pickle"::
+
+OSError: Cannot save file into a non-existent directory: 'test_dagster/data/trajectories'
+
+Stack Trace:
+  File "/usr/local/lib/python3.10/site-packages/dagster/_core/execution/plan/utils.py", line 47, in solid_execution_error_boundary
+    yield
+  File "/usr/local/lib/python3.10/site-packages/dagster/_utils/__init__.py", line 430, in iterate_with_context
+    next_output = next(iterator)
+  File "/usr/local/lib/python3.10/site-packages/dagster/_core/execution/plan/compute_generator.py", line 74, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/workspaces/pipeline-environment/dagster_ais/dagster_ais/ops/trajectory_ops.py", line 146, in save_to_pickle
+    trips.to_pickle(path)
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/generic.py", line 3064, in to_pickle
+    to_pickle(
+  File "/usr/local/lib/python3.10/site-packages/pandas/io/pickle.py", line 97, in to_pickle
+    with get_handle(
+  File "/usr/local/lib/python3.10/site-packages/pandas/io/common.py", line 734, in get_handle
+    check_parent_directory(str(handle))
+  File "/usr/local/lib/python3.10/site-packages/pandas/io/common.py", line 597, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+[0m

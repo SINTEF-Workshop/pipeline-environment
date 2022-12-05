@@ -1,0 +1,42 @@
+[2022-12-05T10:26:02.125+0000] {processor.py:156} INFO - Started process (PID=23441) to work on /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py
+[2022-12-05T10:26:02.125+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py for tasks to queue
+[2022-12-05T10:26:02.126+0000] {logging_mixin.py:117} INFO - [2022-12-05T10:26:02.126+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py
+[2022-12-05T10:26:02.163+0000] {processor.py:768} INFO - DAG(s) dict_keys(['slack_notify']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py
+[2022-12-05T10:26:02.173+0000] {logging_mixin.py:117} INFO - [2022-12-05T10:26:02.173+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-05T10:26:02.192+0000] {logging_mixin.py:117} INFO - [2022-12-05T10:26:02.192+0000] {dag.py:3324} INFO - Setting next_dagrun for slack_notify to 2022-12-05T05:00:00+00:00, run_after=2022-12-06T05:00:00+00:00
+[2022-12-05T10:26:02.242+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py took 0.120 seconds
+[2022-12-05T10:26:33.255+0000] {processor.py:156} INFO - Started process (PID=24282) to work on /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py
+[2022-12-05T10:26:33.256+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py for tasks to queue
+[2022-12-05T10:26:33.257+0000] {logging_mixin.py:117} INFO - [2022-12-05T10:26:33.257+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py
+[2022-12-05T10:26:33.293+0000] {processor.py:768} INFO - DAG(s) dict_keys(['slack_notify']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py
+[2022-12-05T10:26:33.319+0000] {logging_mixin.py:117} INFO - [2022-12-05T10:26:33.319+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-05T10:26:33.336+0000] {logging_mixin.py:117} INFO - [2022-12-05T10:26:33.336+0000] {dag.py:3324} INFO - Setting next_dagrun for slack_notify to 2022-12-05T05:00:00+00:00, run_after=2022-12-06T05:00:00+00:00
+[2022-12-05T10:26:33.384+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py took 0.131 seconds
+[2022-12-05T10:27:03.827+0000] {processor.py:156} INFO - Started process (PID=24666) to work on /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py
+[2022-12-05T10:27:03.827+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py for tasks to queue
+[2022-12-05T10:27:03.828+0000] {logging_mixin.py:117} INFO - [2022-12-05T10:27:03.828+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py
+[2022-12-05T10:27:03.864+0000] {processor.py:768} INFO - DAG(s) dict_keys(['slack_notify']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py
+[2022-12-05T10:27:03.889+0000] {logging_mixin.py:117} INFO - [2022-12-05T10:27:03.889+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-05T10:27:03.905+0000] {logging_mixin.py:117} INFO - [2022-12-05T10:27:03.905+0000] {dag.py:3324} INFO - Setting next_dagrun for slack_notify to 2022-12-05T05:00:00+00:00, run_after=2022-12-06T05:00:00+00:00
+[2022-12-05T10:27:03.953+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py took 0.129 seconds
+[2022-12-05T10:27:34.216+0000] {processor.py:156} INFO - Started process (PID=24918) to work on /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py
+[2022-12-05T10:27:34.217+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py for tasks to queue
+[2022-12-05T10:27:34.217+0000] {logging_mixin.py:117} INFO - [2022-12-05T10:27:34.217+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py
+[2022-12-05T10:27:34.253+0000] {processor.py:768} INFO - DAG(s) dict_keys(['slack_notify']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py
+[2022-12-05T10:27:34.278+0000] {logging_mixin.py:117} INFO - [2022-12-05T10:27:34.278+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-05T10:27:34.295+0000] {logging_mixin.py:117} INFO - [2022-12-05T10:27:34.295+0000] {dag.py:3324} INFO - Setting next_dagrun for slack_notify to 2022-12-05T05:00:00+00:00, run_after=2022-12-06T05:00:00+00:00
+[2022-12-05T10:27:34.348+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py took 0.135 seconds
+[2022-12-05T10:28:04.780+0000] {processor.py:156} INFO - Started process (PID=25122) to work on /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py
+[2022-12-05T10:28:04.780+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py for tasks to queue
+[2022-12-05T10:28:04.781+0000] {logging_mixin.py:117} INFO - [2022-12-05T10:28:04.781+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py
+[2022-12-05T10:28:04.816+0000] {processor.py:768} INFO - DAG(s) dict_keys(['slack_notify']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py
+[2022-12-05T10:28:04.841+0000] {logging_mixin.py:117} INFO - [2022-12-05T10:28:04.841+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-05T10:28:04.860+0000] {logging_mixin.py:117} INFO - [2022-12-05T10:28:04.860+0000] {dag.py:3324} INFO - Setting next_dagrun for slack_notify to 2022-12-05T05:00:00+00:00, run_after=2022-12-06T05:00:00+00:00
+[2022-12-05T10:28:04.914+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py took 0.137 seconds
+[2022-12-05T10:28:35.951+0000] {processor.py:156} INFO - Started process (PID=25309) to work on /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py
+[2022-12-05T10:28:35.952+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py for tasks to queue
+[2022-12-05T10:28:35.952+0000] {logging_mixin.py:117} INFO - [2022-12-05T10:28:35.952+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py
+[2022-12-05T10:28:35.988+0000] {processor.py:768} INFO - DAG(s) dict_keys(['slack_notify']) retrieved from /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py
+[2022-12-05T10:28:36.014+0000] {logging_mixin.py:117} INFO - [2022-12-05T10:28:36.014+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-05T10:28:36.032+0000] {logging_mixin.py:117} INFO - [2022-12-05T10:28:36.032+0000] {dag.py:3324} INFO - Setting next_dagrun for slack_notify to 2022-12-05T05:00:00+00:00, run_after=2022-12-06T05:00:00+00:00
+[2022-12-05T10:28:36.083+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/slack_test.py took 0.135 seconds

@@ -1,0 +1,13 @@
+[32m2022-10-28 10:17:18 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - effd2cb1-4d96-4943-9b15-ee4070fc459f - 23969 - collect_data - LOGS_CAPTURED - Started capturing logs for step: collect_data.
+[32m2022-10-28 10:17:18 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - effd2cb1-4d96-4943-9b15-ee4070fc459f - 23969 - collect_data - STEP_START - Started execution of step "collect_data".
+[32m2022-10-28 10:17:18 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - effd2cb1-4d96-4943-9b15-ee4070fc459f - 23969 - collect_data - LOADED_INPUT - Loaded input "interval" using input manager "io_manager", from output "result" of step "get_interval"
+[32m2022-10-28 10:17:18 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - effd2cb1-4d96-4943-9b15-ee4070fc459f - 23969 - collect_data - STEP_INPUT - Got input "interval" of type "Tuple[datetime,datetime]". (Type check passed).
+[32m2022-10-28 10:17:18 +0000[0m - dagster - [34mINFO[0m - generate_trajectories - effd2cb1-4d96-4943-9b15-ee4070fc459f - collect_data - DATA:
+[32m2022-10-28 10:17:18 +0000[0m - dagster - [34mINFO[0m - generate_trajectories - effd2cb1-4d96-4943-9b15-ee4070fc459f - collect_data - {"courseOverGround":320.4,"latitude":61.344908,"longitude":5.064752,"name":"DAVIK","rateOfTurn":0,"shipType":60,"speedOverGround":0,"trueHeading":319,"mmsi":258313500,"msgtime":"2022-10-28T10:17:03+00:00"}
+[32m2022-10-28 10:17:18 +0000[0m - dagster - [34mINFO[0m - generate_trajectories - effd2cb1-4d96-4943-9b15-ee4070fc459f - collect_data - [   courseoverground   latitude  ...       mmsi                    msgtime
+0             320.4  61.344908  ...  258313500  2022-10-28t10:17:03+00:00
+
+[1 rows x 10 columns]]
+[32m2022-10-28 10:17:18 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - effd2cb1-4d96-4943-9b15-ee4070fc459f - 23969 - collect_data - STEP_OUTPUT - Yielded output "result" of type "DataFrame". (Type check passed).
+[32m2022-10-28 10:17:18 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - effd2cb1-4d96-4943-9b15-ee4070fc459f - 23969 - collect_data - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2022-10-28 10:17:18 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - effd2cb1-4d96-4943-9b15-ee4070fc459f - 23969 - collect_data - STEP_SUCCESS - Finished execution of step "collect_data" in 95ms.

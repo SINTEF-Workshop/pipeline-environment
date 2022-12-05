@@ -1,0 +1,28 @@
+[32m2022-10-28 16:34:48 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - c1349ee8-2c6a-4caf-91e6-536a0e61755f - 14369 - collect_data - LOGS_CAPTURED - Started capturing logs for step: collect_data.
+[32m2022-10-28 16:34:48 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - c1349ee8-2c6a-4caf-91e6-536a0e61755f - 14369 - collect_data - STEP_START - Started execution of step "collect_data".
+[32m2022-10-28 16:34:48 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - c1349ee8-2c6a-4caf-91e6-536a0e61755f - 14369 - collect_data - LOADED_INPUT - Loaded input "interval" using input manager "io_manager", from output "result" of step "get_interval"
+[32m2022-10-28 16:34:48 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - c1349ee8-2c6a-4caf-91e6-536a0e61755f - 14369 - collect_data - STEP_INPUT - Got input "interval" of type "Tuple[datetime,datetime]". (Type check passed).
+[32m2022-10-28 16:35:08 +0000[0m - dagster - [34mERROR[0m - [31mgenerate_trajectories - c1349ee8-2c6a-4caf-91e6-536a0e61755f - 14369 - collect_data - STEP_FAILURE - Execution of step "collect_data" failed.
+
+dagster._core.errors.DagsterExecutionStepExecutionError: Error occurred while executing op "collect_data"::
+
+nats.errors.TimeoutError: nats: timeout
+
+Stack Trace:
+  File "/usr/local/lib/python3.10/site-packages/dagster/_core/execution/plan/utils.py", line 47, in solid_execution_error_boundary
+    yield
+  File "/usr/local/lib/python3.10/site-packages/dagster/_utils/__init__.py", line 430, in iterate_with_context
+    next_output = next(iterator)
+  File "/usr/local/lib/python3.10/site-packages/dagster/_core/execution/plan/compute.py", line 109, in gen_from_async_gen
+    yield loop.run_until_complete(async_gen.__anext__())
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.10/site-packages/dagster/_core/execution/plan/compute_generator.py", line 68, in _coerce_async_solid_to_async_gen
+    result = await awaitable
+  File "/workspaces/pipeline-environment/dagster_ais/dagster_ais/ops/trajectory_ops.py", line 25, in collect_data
+    df_list = await get_messages(psub, end_time, start_time)
+  File "/workspaces/pipeline-environment/dagster_ais/dagster_ais/ops/trajectory_ops.py", line 166, in get_messages
+    msg = await psub.next_msg(20)
+  File "/usr/local/lib/python3.10/site-packages/nats/aio/subscription.py", line 173, in next_msg
+    raise errors.TimeoutError
+[0m
