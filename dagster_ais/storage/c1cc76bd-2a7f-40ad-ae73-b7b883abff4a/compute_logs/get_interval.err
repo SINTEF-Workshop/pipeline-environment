@@ -1,0 +1,5 @@
+[32m2022-10-28 10:16:08 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - c1cc76bd-2a7f-40ad-ae73-b7b883abff4a - 22374 - get_interval - LOGS_CAPTURED - Started capturing logs for step: get_interval.
+[32m2022-10-28 10:16:08 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - c1cc76bd-2a7f-40ad-ae73-b7b883abff4a - 22374 - get_interval - STEP_START - Started execution of step "get_interval".
+[32m2022-10-28 10:16:08 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - c1cc76bd-2a7f-40ad-ae73-b7b883abff4a - 22374 - get_interval - STEP_OUTPUT - Yielded output "result" of type "Tuple[datetime,datetime]". (Type check passed).
+[32m2022-10-28 10:16:08 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - c1cc76bd-2a7f-40ad-ae73-b7b883abff4a - 22374 - get_interval - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2022-10-28 10:16:08 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - c1cc76bd-2a7f-40ad-ae73-b7b883abff4a - 22374 - get_interval - STEP_SUCCESS - Finished execution of step "get_interval" in 24ms.

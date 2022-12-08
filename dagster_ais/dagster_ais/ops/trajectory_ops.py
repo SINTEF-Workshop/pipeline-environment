@@ -142,7 +142,7 @@ def gen_trips(traj_list: list[pd.DataFrame]) -> gpd.GeoDataFrame:
 @op
 def save_to_pickle(trips: gpd.GeoDataFrame) -> str:
     """ Saves the trajectories to file and returns the path """
-    path = 'test_dagster/data/trajectories/trips.pkl'
+    path = 'dagster_ais/data/trajectories/trips.pkl'
     trips.to_pickle(path)
     return path
 
@@ -165,6 +165,10 @@ async def get_messages(psub, end_time, start_time):
         # Get message
         msg = await psub.next_msg(20)
         data = msg.data.decode()
+
+        logger = get_dagster_logger()
+        logger.info("DATA:")
+        logger.info(data)
 
         # Extract the date
         date = json.loads(data)["msgtime"]

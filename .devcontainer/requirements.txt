@@ -16,7 +16,7 @@ SQLAlchemy
 pyarrow
 geopandas
 GeoAlchemy2
-mlflow
-torch
-pytorch-lightning
-scikit-learn
+# mlflow
+# torch
+# pytorch-lightning
+# scikit-learn

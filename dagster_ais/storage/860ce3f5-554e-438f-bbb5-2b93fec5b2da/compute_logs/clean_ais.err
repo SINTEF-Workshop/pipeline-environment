@@ -1,0 +1,7 @@
+[32m2022-10-28 16:35:44 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - 860ce3f5-554e-438f-bbb5-2b93fec5b2da - 15434 - clean_ais - LOGS_CAPTURED - Started capturing logs for step: clean_ais.
+[32m2022-10-28 16:35:44 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - 860ce3f5-554e-438f-bbb5-2b93fec5b2da - 15434 - clean_ais - STEP_START - Started execution of step "clean_ais".
+[32m2022-10-28 16:35:44 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - 860ce3f5-554e-438f-bbb5-2b93fec5b2da - 15434 - clean_ais - LOADED_INPUT - Loaded input "ais" using input manager "io_manager", from output "result" of step "collect_data"
+[32m2022-10-28 16:35:44 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - 860ce3f5-554e-438f-bbb5-2b93fec5b2da - 15434 - clean_ais - STEP_INPUT - Got input "ais" of type "DataFrame". (Type check passed).
+[32m2022-10-28 16:35:44 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - 860ce3f5-554e-438f-bbb5-2b93fec5b2da - 15434 - clean_ais - STEP_OUTPUT - Yielded output "result" of type "DataFrame". (Type check passed).
+[32m2022-10-28 16:35:44 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - 860ce3f5-554e-438f-bbb5-2b93fec5b2da - 15434 - clean_ais - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2022-10-28 16:35:44 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - 860ce3f5-554e-438f-bbb5-2b93fec5b2da - 15434 - clean_ais - STEP_SUCCESS - Finished execution of step "clean_ais" in 33ms.

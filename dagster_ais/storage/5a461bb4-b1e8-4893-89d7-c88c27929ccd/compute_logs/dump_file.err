@@ -1,0 +1,7 @@
+[32m2022-10-27 16:02:02 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - 5a461bb4-b1e8-4893-89d7-c88c27929ccd - 22261 - dump_file - LOGS_CAPTURED - Started capturing logs for step: dump_file.
+[32m2022-10-27 16:02:02 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - 5a461bb4-b1e8-4893-89d7-c88c27929ccd - 22261 - dump_file - STEP_START - Started execution of step "dump_file".
+[32m2022-10-27 16:02:02 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - 5a461bb4-b1e8-4893-89d7-c88c27929ccd - 22261 - dump_file - LOADED_INPUT - Loaded input "file_name" using input manager "io_manager", from output "result" of step "save_to_parquet"
+[32m2022-10-27 16:02:02 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - 5a461bb4-b1e8-4893-89d7-c88c27929ccd - 22261 - dump_file - STEP_INPUT - Got input "file_name" of type "String". (Type check passed).
+[32m2022-10-27 16:02:02 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - 5a461bb4-b1e8-4893-89d7-c88c27929ccd - 22261 - dump_file - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2022-10-27 16:02:02 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - 5a461bb4-b1e8-4893-89d7-c88c27929ccd - 22261 - dump_file - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2022-10-27 16:02:02 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - 5a461bb4-b1e8-4893-89d7-c88c27929ccd - 22261 - dump_file - STEP_SUCCESS - Finished execution of step "dump_file" in 74ms.
