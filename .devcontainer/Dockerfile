@@ -35,5 +35,5 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends postgresql-client vim 
 
 # Install dependencies
-# COPY .devcontainer/requirements.txt .
-# RUN pip install -r requirements.txt
+COPY .devcontainer/requirements.txt .
+RUN pip install -r requirements.txt
