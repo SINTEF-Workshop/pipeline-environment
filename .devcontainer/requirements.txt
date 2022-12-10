@@ -6,6 +6,7 @@ dagster-slack
 # AIRFLOW
 apache-airflow
 apache-airflow-providers-slack==6.0.0
+# Prefect
 prefect==2.3.2
 minio 
 nats-py 
@@ -16,7 +17,7 @@ SQLAlchemy
 pyarrow
 geopandas
 GeoAlchemy2
-# mlflow
-# torch
-# pytorch-lightning
+mlflow
+torch
+pytorch-lightning
 # scikit-learn
