@@ -3,7 +3,7 @@ ARG VARIANT=3.10-bullseye
 FROM mcr.microsoft.com/vscode/devcontainers/python:0-${VARIANT}
 
 ENV PYTHONUNBUFFERED 1
-ENV AIRFLOW_HOME=/workspaces/pipeline-environment/test_airflow
+ENV AIRFLOW_HOME=/workspaces/pipeline-environment/airflow_ais
 ENV DAGSTER_HOME=/workspaces/pipeline-environment/dagster_ais
 
 # [Choice] Node.js version: none, lts/*, 16, 14, 12, 10
@@ -11,12 +11,12 @@ ARG NODE_VERSION="none"
 RUN if [ "${NODE_VERSION}" != "none" ]; then su vscode -c "umask 0002 && . /usr/local/share/nvm/nvm.sh && nvm install ${NODE_VERSION} 2>&1"; fi
 
 # SETUP MinIO
-RUN wget https://dl.min.io/server/minio/release/linux-amd64/minio
-RUN chmod +x minio
-ENV MINIO_ROOT_USER=admin 
-ENV MINIO_ROOT_PASSWORD=password
-RUN sudo mkdir /mnt/data 
-RUN sudo chown -R vscode /mnt/data && sudo chmod u+rxw /mnt/data
+# RUN wget https://dl.min.io/server/minio/release/linux-amd64/minio
+# RUN chmod +x minio
+# ENV MINIO_ROOT_USER=admin 
+# ENV MINIO_ROOT_PASSWORD=password
+# RUN sudo mkdir /mnt/data 
+# RUN sudo chown -R vscode /mnt/data && sudo chmod u+rxw /mnt/data
 
 # SETUP NATS stream
 RUN curl -L https://github.com/nats-io/nats-server/releases/download/v2.9.2/nats-server-v2.9.2-linux-amd64.zip -o nats-server.zip
