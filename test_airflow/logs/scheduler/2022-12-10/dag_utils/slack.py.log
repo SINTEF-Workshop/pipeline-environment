@@ -1,0 +1,10 @@
+[2022-12-10T12:02:09.959+0000] {processor.py:153} INFO - Started process (PID=5273) to work on /workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py
+[2022-12-10T12:02:09.960+0000] {processor.py:743} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py for tasks to queue
+[2022-12-10T12:02:09.961+0000] {logging_mixin.py:137} INFO - [2022-12-10T12:02:09.961+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py
+[2022-12-10T12:02:09.984+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py
+[2022-12-10T12:02:09.994+0000] {processor.py:175} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py took 0.039 seconds
+[2022-12-10T12:02:43.991+0000] {processor.py:153} INFO - Started process (PID=6141) to work on /workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py
+[2022-12-10T12:02:43.992+0000] {processor.py:743} INFO - Processing file /workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py for tasks to queue
+[2022-12-10T12:02:43.993+0000] {logging_mixin.py:137} INFO - [2022-12-10T12:02:43.993+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py
+[2022-12-10T12:02:44.017+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py
+[2022-12-10T12:02:44.026+0000] {processor.py:175} INFO - Processing /workspaces/pipeline-environment/airflow_ais/dags/dag_utils/slack.py took 0.039 seconds
