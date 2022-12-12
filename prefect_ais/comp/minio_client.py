@@ -13,7 +13,7 @@ class MinioClient:
     def get_client(self):
         print("Getting client")
         client = Minio(
-            "localhost:9000",
+            "localhost:9900",
             access_key=ACCESS_KEY,
             secret_key=SECRET_KEY,
             secure=False
@@ -25,7 +25,7 @@ class MinioClient:
         # Make 'asiatrip' bucket if not exist.
         print("Adding file to bucket: " + bucket)
 
-        
+
         found = self.client.bucket_exists(bucket)
 
         print("Found: " + str(found))
