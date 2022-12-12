@@ -3,7 +3,7 @@
 ###
 name: generate_trajectories
 description: null
-version: 84b8a14e234df56368549f6be565d115
+version: d17ba9c6731b1ef7a414d8fb51e92cea
 # The work queue that will handle this deployment's runs
 work_queue_name: ais_queue
 tags: []

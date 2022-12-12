@@ -16,6 +16,7 @@ async def dump_to_s3():
     # Get interval
     print("TESTING")
     now, start = await get_interval()
+
     # Create dumpfile
     filename = f"data/{format(str(now))}"
     await create_dump_file(filename, now)
