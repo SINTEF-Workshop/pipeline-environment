@@ -3,7 +3,7 @@ ARG VARIANT=3.10-bullseye
 FROM mcr.microsoft.com/vscode/devcontainers/python:0-${VARIANT}
 
 ENV PYTHONUNBUFFERED 1
-ENV AIRFLOW_HOME=/workspaces/pipeline-environment/airflow_ais
+ENV AIRFLOW_HOME=/workspaces/pipeline-environment/airflow_pipelines
 ENV DAGSTER_HOME=/workspaces/pipeline-environment/dagster_ais
 
 # [Choice] Node.js version: none, lts/*, 16, 14, 12, 10
