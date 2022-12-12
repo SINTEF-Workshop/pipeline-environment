@@ -36,7 +36,7 @@ dag = DAG(
     'restaurants_pipeline',
     default_args=default_args,
     description='Pipeline to process restaurants data',
-    schedule_interval='@once',
+    schedule='@once',
 )
 
 # <---- SETUP ----->
