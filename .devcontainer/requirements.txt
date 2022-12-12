@@ -6,10 +6,12 @@ dagster-slack
 # AIRFLOW
 apache-airflow
 apache-airflow-providers-slack==6.0.0
+apache-airflow-providers-postgres
 # Prefect
 prefect==2.3.2
 minio 
 nats-py 
+psycopg2
 pandas
 numpy
 pytz
