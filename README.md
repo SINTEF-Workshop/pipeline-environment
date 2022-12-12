@@ -41,6 +41,4 @@ To run prefect, navigate to the prefect_ais folder and execute these commands (m
 
 ### Create deployments
 
-    prefect deployment build dump_to_s3.py:dump_to_s3 -n dump_to_s3 -q ais_queue
-
-
+    prefect deployment build dump_to_s3.py:dump_to_s3 -n dump_to_s3 -q ais_queue --apply
