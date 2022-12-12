@@ -33,4 +33,3 @@ def generate_trajectories():
     trips = gen_trips(routes)
     save_to_pickle(trips)
     save_to_postgis(trips)
-    
