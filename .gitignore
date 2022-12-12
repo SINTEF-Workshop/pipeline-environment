@@ -1,9 +1,8 @@
 tmp*/
-test_dagster/storage
 __pycache__/
 *.log
 *.pid
 test_airflow/scheduler/logs/latest
 airflow.db
 logs/
-storage/
+dagster_ais/storage
