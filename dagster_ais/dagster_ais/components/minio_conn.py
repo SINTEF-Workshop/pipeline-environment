@@ -9,12 +9,12 @@ class MinioClient:
     def get_client(self):
         client = Minio(
             # "sandbox-toys-minio.sandbox.svc.cluster.local:9000",
-            "localhost:9000",
+            "localhost:9900",
             access_key=ACCESS_KEY,
             secret_key=SECRET_KEY,
             secure=False
         )
-     
+
         return client
 
     def add_file(self, name, path):
@@ -24,9 +24,9 @@ class MinioClient:
             self.client.make_bucket("ais")
         else:
             print("Bucket 'ais' already exists")
-     
+
         self.client.fput_object("ais", name, path)
-     
+
         print(
             f"'{path}' is successfully uploaded as "
             f"object '{path}' to bucket 'path'."

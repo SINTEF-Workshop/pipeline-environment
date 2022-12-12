@@ -4,21 +4,10 @@ In this tutorial, we will be working with a pipelines that collects stream data 
 # Setup
 In order to run all of the tasks, a few servers have to be up and running. To set up all the necessary servers, do the following setps.
 
-## Minio setup
-Run this command (and keep it running in the background):
-
-    /minio server /mnt/data --console-address ":9001"
-
-This will setup an S3 storage that you can access in the browser at localhost:9000.
-
 ## NATS setup
 Since we will be working with stream data, we need a way to manage this. Nats is a streaming service for this particular purpose.
 
-Run this command (and keep it running in the background):
-
-    nats-server -js
-
-This will setup a stream server that you can publish messages to. But you first have to add a stream to the service. Do it by executing this command:
+You first have to add a stream to the service. Do it by executing this command:
 
     nats stream add ais_stream --subjects "ais" --storage file --replicas 1 --retention limits --discard old --max-msgs=-1 --max-msgs-per-subject=-1 --max-bytes=-1 --max-age=-1 --max-msg-size=-1 --dupe-window="2m0s" --no-allow-rollup --no-deny-delete --no-deny-purge
 
