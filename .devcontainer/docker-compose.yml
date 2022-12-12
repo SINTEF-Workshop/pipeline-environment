@@ -14,70 +14,75 @@ services:
         NODE_VERSION: "lts/*"
 
     volumes:
-      - ..:/workspace:cached  
+      # Forwards the local Docker socket to the container.
+      #- /var/run/docker.sock:/var/run/docker-host.sock
+      # Update this to wherever you want VS Code to mount the folder of your project
+      - ../..:/workspaces:cached
 
     # Overrides default command so things don't shut down after the process ends.
+    #entrypoint: /usr/local/share/docker-init.sh
     command: sleep infinity
+    #network_mode: service:db
+    network_mode: host
 
-    # Runs app on the same network as the database container, allows "forwardPorts" in devcontainer.json function.
-    network_mode: service:db
+    # Uncomment the next four lines if you will use a ptrace-based debuggers like C++, Go, and Rust.
+    # cap_add:
+    #  - SYS_PTRACE
+    # security_opt:
+    #   - seccomp:unconfined
 
-    # Uncomment the next line to use a non-root user for all processes.
-    # user: vscode
+    # Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+    # user: root
 
     # Use "forwardPorts" in **devcontainer.json** to forward an app port locally.
     # (Adding the "ports" property to this file will not forward from a Codespace.)
-    # Runs app on the same network as the database container, allows "forwardPorts" in devcontainer.json function.
 
-    # Uncomment the next line to use a non-root user for all processes.
-    # user: vscode
-
-  # NOTE: This setup does does not work
-
-  # s3:
-  #   image: quay.io/minio/minio:RELEASE.2022-06-10T16-59-15Z
-  #   restart: always
-  #   # expose is used to not publish port to the host machine, so nginx can be used to forward the port
-  #   expose:
-  #     - 9000
-  #     - 9001
-  #   volumes:
-  #     - minio-data:/data
-  #   environment:
-  #     MINIO_ROOT_USER: minioadmin
-  #     MINIO_ROOT_PASSWORD: minioadmin
-  #   command: server ./data --address 0.0.0.0:9000 --console-address ":9001"
-  #   healthcheck:
-  #       test: ["CMD", "curl", "-f", "http://127.0.0.1:9000/minio/health/live"]
-  #       interval: 30s
-  #       timeout: 20s
-  #       retries: 3
-  
-  # nginx:
-  #   image: nginx:1.19.2-alpine
-  #   hostname: nginx
-  #   # network_mode: service:s3 # run nginx in the same network as s3
-  #   volumes:
-  #     - ./nginx.conf:/etc/nginx/nginx.conf:ro
-  #   ports:
-  #     - 9000:9000
-  #     - 9001:9001
-  #   depends_on:
-  #     - s3
-
+  s3:
+    image: quay.io/minio/minio:RELEASE.2022-12-07T00-56-37Z
+    restart: unless-stopped
+    expose:
+      - 9900
+      - 9901
+    # ports:
+    #   - "9000:9000"
+    #   - "9001:9001"
+    volumes:
+      - minio-data:/data
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    command: server ./data --address 0.0.0.0:9900 --console-address ":9901"
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://127.0.0.1:9900/minio/health/live"]
+        interval: 30s
+        timeout: 20s
+        retries: 3
+    #network_mode: service:db
+    network_mode: host
 
   db:
     image: postgis/postgis
     restart: unless-stopped
     volumes:
       - postgres-data:/var/lib/postgresql/data
+    expose:
+      - 5432
     environment:
       POSTGRES_USER: postgres
       POSTGRES_DB: postgres
       POSTGRES_PASSWORD: postgres
       POSTGRES_HOST: postgres
+    network_mode: host
+
+  nats:
+    image: nats:2.9.9
+    restart: unless-stopped
+    command: "-js"
+    expose:
+      - 4222
+      - 8222
+    network_mode: host
 
 volumes:
-  dagster-postgres:
-    driver: local
+  minio-data:
   postgres-data:
