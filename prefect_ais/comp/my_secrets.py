@@ -9,8 +9,8 @@ CLIENT_SECRET = 'GulPaprika1991'
 # For local
 # ACCESS_KEY = 'taDLlqJ4bqfeGNeP'
 # SECRET_KEY = 'qZPq6ilvXdjghwPMRoWefiDQriVfxuXV'
-ACCESS_KEY = 'admin'
-SECRET_KEY = 'password'
+ACCESS_KEY = 'minioadmin'
+SECRET_KEY = 'minioadmin'
 # For cloud
 # ACCESS_KEY = 'PeW4aX11SOueGyHQ'
 # SECRET_KEY = 'igro1rcTyAq3xMtdt1wldvMTW2aw5Qq9'
