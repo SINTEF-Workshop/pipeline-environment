@@ -35,10 +35,10 @@ To run prefect, navigate to the prefect_ais folder and execute these commands (m
 ### Setup API + UI
     prefect orion start
 
-### Setup Agent (for scheduling)
-
-    prefect agent start -q ais_queue
-
 ### Create deployments
 
     prefect deployment build dump_to_s3.py:dump_to_s3 -n dump_to_s3 -q ais_queue --apply
+
+### Setup Agent (for scheduling)
+
+    prefect agent start -q ais_queue
