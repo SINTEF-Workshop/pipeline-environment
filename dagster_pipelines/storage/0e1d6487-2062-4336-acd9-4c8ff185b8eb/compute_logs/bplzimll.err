@@ -1,0 +1,6 @@
+[32m2022-12-23 15:11:19 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - 0e1d6487-2062-4336-acd9-4c8ff185b8eb - 7845 - LOGS_CAPTURED - Started capturing logs in process (pid: 7845).
+[32m2022-12-23 15:11:19 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - 0e1d6487-2062-4336-acd9-4c8ff185b8eb - 7845 - get_interval - STEP_START - Started execution of step "get_interval".
+[32m2022-12-23 15:11:19 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - 0e1d6487-2062-4336-acd9-4c8ff185b8eb - 7845 - get_interval - STEP_OUTPUT - Yielded output "result" of type "Tuple[datetime,datetime]". (Type check passed).
+[32m2022-12-23 15:11:19 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - 0e1d6487-2062-4336-acd9-4c8ff185b8eb - get_interval - Writing file at: /workspaces/pipeline-environment/dagster_pipelines/storage/0e1d6487-2062-4336-acd9-4c8ff185b8eb/get_interval/result
+[32m2022-12-23 15:11:19 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - 0e1d6487-2062-4336-acd9-4c8ff185b8eb - 7845 - get_interval - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2022-12-23 15:11:19 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - 0e1d6487-2062-4336-acd9-4c8ff185b8eb - 7845 - get_interval - STEP_SUCCESS - Finished execution of step "get_interval" in 52ms.

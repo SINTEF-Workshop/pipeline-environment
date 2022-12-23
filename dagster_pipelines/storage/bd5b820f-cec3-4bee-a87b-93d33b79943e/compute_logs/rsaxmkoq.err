@@ -1,0 +1,15 @@
+[32m2022-12-20 15:58:21 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - bd5b820f-cec3-4bee-a87b-93d33b79943e - 29715 - LOGS_CAPTURED - Started capturing logs in process (pid: 29715).
+[32m2022-12-20 15:58:21 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - bd5b820f-cec3-4bee-a87b-93d33b79943e - 29715 - collect_data - STEP_START - Started execution of step "collect_data".
+[32m2022-12-20 15:58:21 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - bd5b820f-cec3-4bee-a87b-93d33b79943e - collect_data - Loading file from: /workspaces/pipeline-environment/dagster_pipelines/storage/40b5acdc-517d-43ea-80d5-e1eb2a3e972e/get_interval/result
+[32m2022-12-20 15:58:21 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - bd5b820f-cec3-4bee-a87b-93d33b79943e - 29715 - collect_data - LOADED_INPUT - Loaded input "interval" using input manager "io_manager", from output "result" of step "get_interval"
+[32m2022-12-20 15:58:21 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - bd5b820f-cec3-4bee-a87b-93d33b79943e - 29715 - collect_data - STEP_INPUT - Got input "interval" of type "Tuple[datetime,datetime]". (Type check passed).
+[32m2022-12-20 15:58:21 +0000[0m - dagster - [34mINFO[0m - generate_trajectories - bd5b820f-cec3-4bee-a87b-93d33b79943e - collect_data - DATA:
+[32m2022-12-20 15:58:21 +0000[0m - dagster - [34mINFO[0m - generate_trajectories - bd5b820f-cec3-4bee-a87b-93d33b79943e - collect_data - {"courseOverGround":82.9,"latitude":60.38927,"longitude":2.803828,"name":"NORMAND OCEAN","rateOfTurn":-45,"shipType":70,"speedOverGround":5.2,"trueHeading":90,"mmsi":257291000,"msgtime":"2022-12-20T15:58:04.4425159+00:00"}
+[32m2022-12-20 15:58:21 +0000[0m - dagster - [34mINFO[0m - generate_trajectories - bd5b820f-cec3-4bee-a87b-93d33b79943e - collect_data - [   courseoverground  latitude  ...       mmsi                            msgtime
+0              82.9  60.38927  ...  257291000  2022-12-20t15:58:04.4425159+00:00
+
+[1 rows x 10 columns]]
+[32m2022-12-20 15:58:21 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - bd5b820f-cec3-4bee-a87b-93d33b79943e - 29715 - collect_data - STEP_OUTPUT - Yielded output "result" of type "DataFrame". (Type check passed).
+[32m2022-12-20 15:58:21 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - bd5b820f-cec3-4bee-a87b-93d33b79943e - collect_data - Writing file at: /workspaces/pipeline-environment/dagster_pipelines/storage/bd5b820f-cec3-4bee-a87b-93d33b79943e/collect_data/result
+[32m2022-12-20 15:58:21 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - bd5b820f-cec3-4bee-a87b-93d33b79943e - 29715 - collect_data - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2022-12-20 15:58:21 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - bd5b820f-cec3-4bee-a87b-93d33b79943e - 29715 - collect_data - STEP_SUCCESS - Finished execution of step "collect_data" in 121ms.
