@@ -1,5 +1,0 @@
-[32m2022-10-28 17:00:11 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - 1c10c404-09d2-419d-9371-922eda179aee - 5075 - get_interval - LOGS_CAPTURED - Started capturing logs for step: get_interval.
-[32m2022-10-28 17:00:11 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - 1c10c404-09d2-419d-9371-922eda179aee - 5075 - get_interval - STEP_START - Started execution of step "get_interval".
-[32m2022-10-28 17:00:11 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - 1c10c404-09d2-419d-9371-922eda179aee - 5075 - get_interval - STEP_OUTPUT - Yielded output "result" of type "Tuple[datetime,datetime]". (Type check passed).
-[32m2022-10-28 17:00:11 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - 1c10c404-09d2-419d-9371-922eda179aee - 5075 - get_interval - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2022-10-28 17:00:11 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - 1c10c404-09d2-419d-9371-922eda179aee - 5075 - get_interval - STEP_SUCCESS - Finished execution of step "get_interval" in 25ms.

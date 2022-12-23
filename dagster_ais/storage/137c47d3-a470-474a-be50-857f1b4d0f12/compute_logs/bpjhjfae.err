@@ -1,7 +1,0 @@
-[32m2022-12-10 09:39:41 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - 137c47d3-a470-474a-be50-857f1b4d0f12 - 18638 - LOGS_CAPTURED - Started capturing logs in process (pid: 18638).
-[32m2022-12-10 09:39:41 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - 137c47d3-a470-474a-be50-857f1b4d0f12 - 18638 - get_interval - STEP_START - Started execution of step "get_interval".
-[32m2022-12-10 09:39:41 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - 137c47d3-a470-474a-be50-857f1b4d0f12 - 18638 - get_interval - STEP_OUTPUT - Yielded output "result" of type "Tuple[datetime,datetime]". (Type check passed).
-[32m2022-12-10 09:39:41 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - 137c47d3-a470-474a-be50-857f1b4d0f12 - get_interval - Writing file at: /workspaces/pipeline-environment/dagster_ais/storage/137c47d3-a470-474a-be50-857f1b4d0f12/get_interval/result
-[32m2022-12-10 09:39:41 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - 137c47d3-a470-474a-be50-857f1b4d0f12 - 18638 - get_interval - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2022-12-10 09:39:41 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - 137c47d3-a470-474a-be50-857f1b4d0f12 - 18638 - get_interval - STEP_SUCCESS - Finished execution of step "get_interval" in 40ms.
-[32m2022-12-10 09:39:41 +0000[0m - dagster - [34mDEBUG[0m - dump_to_s3 - 137c47d3-a470-474a-be50-857f1b4d0f12 - get_interval - HOOK_SKIPPED - Skipped the execution of hook "_hook". It did not meet its triggering condition during the execution of "get_interval".

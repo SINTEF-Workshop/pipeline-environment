@@ -1,9 +1,0 @@
-[32m2022-10-23 20:38:55 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 6c8eef1d-1f02-45c2-a2c7-75e851b21381 - 28533 - trajectory_list - LOGS_CAPTURED - Started capturing logs for step: trajectory_list.
-[32m2022-10-23 20:38:55 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 6c8eef1d-1f02-45c2-a2c7-75e851b21381 - 28533 - trajectory_list - STEP_START - Started execution of step "trajectory_list".
-[32m2022-10-23 20:38:55 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 6c8eef1d-1f02-45c2-a2c7-75e851b21381 - 28533 - trajectory_list - ASSET_OBSERVATION - DagsterEventType.ASSET_OBSERVATION for step trajectory_list
-[32m2022-10-23 20:38:55 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 6c8eef1d-1f02-45c2-a2c7-75e851b21381 - 28533 - trajectory_list - LOADED_INPUT - Loaded input "ais_messages_cleaned" using input manager "io_manager"
-[32m2022-10-23 20:38:55 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 6c8eef1d-1f02-45c2-a2c7-75e851b21381 - 28533 - trajectory_list - STEP_INPUT - Got input "ais_messages_cleaned" of type "DataFrame". (Type check passed).
-[32m2022-10-23 20:38:55 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 6c8eef1d-1f02-45c2-a2c7-75e851b21381 - 28533 - trajectory_list - STEP_OUTPUT - Yielded output "result" of type "[DataFrame]". (Type check passed).
-[32m2022-10-23 20:38:55 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 6c8eef1d-1f02-45c2-a2c7-75e851b21381 - 28533 - trajectory_list - ASSET_MATERIALIZATION - Materialized value trajectory_list.
-[32m2022-10-23 20:38:55 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 6c8eef1d-1f02-45c2-a2c7-75e851b21381 - 28533 - trajectory_list - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2022-10-23 20:38:55 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 6c8eef1d-1f02-45c2-a2c7-75e851b21381 - 28533 - trajectory_list - STEP_SUCCESS - Finished execution of step "trajectory_list" in 71ms.

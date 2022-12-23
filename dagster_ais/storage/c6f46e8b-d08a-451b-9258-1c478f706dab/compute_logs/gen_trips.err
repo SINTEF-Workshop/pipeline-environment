@@ -1,7 +1,0 @@
-[32m2022-10-28 10:15:46 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - c6f46e8b-d08a-451b-9258-1c478f706dab - 21854 - gen_trips - LOGS_CAPTURED - Started capturing logs for step: gen_trips.
-[32m2022-10-28 10:15:46 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - c6f46e8b-d08a-451b-9258-1c478f706dab - 21854 - gen_trips - STEP_START - Started execution of step "gen_trips".
-[32m2022-10-28 10:15:46 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - c6f46e8b-d08a-451b-9258-1c478f706dab - 21854 - gen_trips - LOADED_INPUT - Loaded input "traj_list" using input manager "io_manager", from output "result" of step "create_routes"
-[32m2022-10-28 10:15:46 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - c6f46e8b-d08a-451b-9258-1c478f706dab - 21854 - gen_trips - STEP_INPUT - Got input "traj_list" of type "[DataFrame]". (Type check passed).
-[32m2022-10-28 10:15:46 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - c6f46e8b-d08a-451b-9258-1c478f706dab - 21854 - gen_trips - STEP_OUTPUT - Yielded output "result" of type "GeoDataFrame". (Type check passed).
-[32m2022-10-28 10:15:46 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - c6f46e8b-d08a-451b-9258-1c478f706dab - 21854 - gen_trips - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2022-10-28 10:15:46 +0000[0m - dagster - [34mDEBUG[0m - generate_trajectories - c6f46e8b-d08a-451b-9258-1c478f706dab - 21854 - gen_trips - STEP_SUCCESS - Finished execution of step "gen_trips" in 30ms.
