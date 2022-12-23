@@ -22,6 +22,7 @@ def generate_trajectories():
     postgres = PostgresConn()
 
     home = '/workspaces/pipeline-environment/airflow_pipelines/dags'
+    
     @task
     def collect_messages():
         asyncio.run(slow_storage.consumer(slow_storage.append_to_dataframe))
