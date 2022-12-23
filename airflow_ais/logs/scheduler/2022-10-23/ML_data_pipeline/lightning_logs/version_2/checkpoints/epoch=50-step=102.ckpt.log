@@ -1,5 +1,0 @@
-[2022-10-23T20:57:18.195+0000] {processor.py:156} INFO - Started process (PID=24064) to work on /workspaces/pipeline-environment/test_airflow/dags/ML_data_pipeline/lightning_logs/version_2/checkpoints/epoch=50-step=102.ckpt
-[2022-10-23T20:57:18.196+0000] {processor.py:758} INFO - Processing file /workspaces/pipeline-environment/test_airflow/dags/ML_data_pipeline/lightning_logs/version_2/checkpoints/epoch=50-step=102.ckpt for tasks to queue
-[2022-10-23T20:57:18.197+0000] {logging_mixin.py:117} INFO - [2022-10-23T20:57:18.196+0000] {dagbag.py:525} INFO - Filling up the DagBag from /workspaces/pipeline-environment/test_airflow/dags/ML_data_pipeline/lightning_logs/version_2/checkpoints/epoch=50-step=102.ckpt
-[2022-10-23T20:57:18.197+0000] {processor.py:770} WARNING - No viable dags retrieved from /workspaces/pipeline-environment/test_airflow/dags/ML_data_pipeline/lightning_logs/version_2/checkpoints/epoch=50-step=102.ckpt
-[2022-10-23T20:57:18.205+0000] {processor.py:178} INFO - Processing /workspaces/pipeline-environment/test_airflow/dags/ML_data_pipeline/lightning_logs/version_2/checkpoints/epoch=50-step=102.ckpt took 0.013 seconds
