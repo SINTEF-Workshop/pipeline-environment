@@ -62,4 +62,4 @@ def generate_trajectories():
     gdf = create_geo_dataframe(pkl)
     save_to_postgis(gdf)
 
-generate_trajectories = generate_trajectories() 
+generate_trajectories() 
